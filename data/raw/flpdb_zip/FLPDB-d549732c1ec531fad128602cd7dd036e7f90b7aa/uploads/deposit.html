@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Frustrated Lewis Pairs Database Deposit Form</title>
+<link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Open+Sans" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<link href="yrg.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">
+    <h1 class="head"><a href="#">Frustrated Lewis Pairs Database (FLPDB)</a></h1>
+  </div>
+  <!-- end .header -->
+  <div class="content">
+    <h3 style="text-align: center">This web service enables you to submit CIF or xyz files of associated structures to FLPDB. DFT calculated data for the submitted FLP structure will be uploaded to Frustrated Lewis Pairs Database. </h3>
+	  <p style="text-align: center; color: red">Items marked with <sup>*</sup> are required.</p>
+    <form action="mail.php" method="post" enctype="multipart/form-data">
+      <div style="display: table-column;  "></div>
+      <div style="display: table-column; width:100vw; "></div>
+      <p>
+        <label for="inputFname"><strong>First name(s):</strong><sup style="color: red">*</sup></label>
+        <input type="text" name="firstname" id="inputFname">
+      </p>
+      <p>
+        <label for="inputLname"><strong>Last name(s):</strong> <sup style="color: red">*</sup></label>
+        <input type="text" name="lastname" id="inputLname" required>
+      </p>
+      <p>
+		  <label for="inputEmail"><strong>Your email address:</strong> <sup style="color: red">*</sup></label>
+        <input type="text" name="email" id="inputEmail" required>
+      </p>
+      <p>
+        <label for="inputORCID"><strong>ORCID:&nbsp&nbsp </strong></label>
+        <input type="text" name="orcid" id="inputORCID">
+      </p>
+      <p>
+        <label for="inputInstitution"><strong>Institution (e.g. University/Company):</strong> <sup style="color: red">*</sup></label>
+        <input type="text" name="institution" id="inputInstitution" required>
+      </p>
+      <p>
+        <label for="inputInfo"><strong>More Info:&nbsp&nbsp</strong></label>
+        <input type="text" name="Info" id="inputInfo">
+      </p>
+      <label for="upload"><strong>CIF/XYZ:&nbsp&nbsp</strong></label>
+      <input type="file" name="upload" accept=".xyz, .txt" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" style="width: 100px;">
+    </form>
+  </div>
+  <!-- end of content -->
+  
+  <div class="footer">
+    <p style="text-align: center">2021 Ye Research Group</p>
+  </div>
+</div>
+</body>
+</html>

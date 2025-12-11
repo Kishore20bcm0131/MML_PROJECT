@@ -1,0 +1,160 @@
+@charset "utf-8";
+html {
+    overflow-y:scroll;
+	overflow-x: hidden;
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	color: rgba(68,67,67,1.00);
+	font-family: 'Libre Franklin', sans-serif;
+	height: 100%;
+	margin: 0;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+.header {
+	border-bottom-style: solid;
+	background: #dddddd;
+	width: 110%;
+	margin: -15px 0px -10px -10px;
+	padding-top: 10px;
+	padding-bottom: -10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: rgba(68,67,67,1.00);
+	
+}
+
+.footer {
+	border-top-style:solid;
+	background: #dddddd;
+	margin: -40px 0px -10px -40px;
+	width: 110%;
+	padding-bottom: 0.1px;
+	padding-top: -50px;
+	position: sticky;
+
+   left: 0;
+   bottom: -30;
+}
+
+.head {
+	padding-left: 40px;
+	font-size: 25px;
+}
+
+
+.logo {
+	padding: 10px 10px 10px 130px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border: solid rgba(68,67,67,1.00);
+  border-radius: 20px;
+  width: 105%;
+  text-indent: 2px;
+  margin: 1px -10px 10px -30px;
+}
+
+td, th {
+  border-bottom: 1px solid #B9B9B9;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+td img {
+	width:150px;
+	height: auto;
+}
+
+
+
+.container {
+	max-width: 1100px;
+	min-width: 600px;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 2px #888888;
+	border: 1px solid #eeeff0;
+}
+
+.content {
+	min-height: 100%;
+	min-width: 600px;
+	margin: 0 5%;
+	padding-bottom: 70px;
+	
+}
+
+#view1-container, #view2-container, #view3-container, #view4-container, #view5-container, #view6-container, #view7-container{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+	min-height: 300px;
+}
+.canvas {
+	min-width: 300px;
+	max-width: 500px;
+	height: 100%;
+	max-height: 300px;
+	margin: 0 auto;
+	border: thin solid black;
+}
+
+.info {
+	margin: 0 auto;
+	min-width:  300px;
+	padding-left: 20px;
+}
+
+
+.info h2 {
+	text-align: center;
+}
+
+
+
+.main {
+	display: flex;
+}
+
+.main div {
+	flex: 1;
+}
+
+.centered {
+	margin: 0 auto;
+	width: 800px;
+}
+
+.formdiv{
+	text-align: center;
+	margin: 20px;
+	}
+	
+	form {
+	display: inline-block;
+	}

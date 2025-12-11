@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Frustrated Lewis Pairs Database</title>
+<link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Open+Sans" rel="stylesheet">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<link href="../yrg.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.3.4.min.js"></script>
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.3.4.min.js"></script>
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-gl-1.3.4.min.js"></script>
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-api-1.3.4.min.js"></script>
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-api-1.3.4.min.js"></script>
+<script type="text/javascript" src="PapaParse\papaparse.js"></script>
+</head>
+<body>
+
+	<div class="header">
+	<h1 class="head"><a href="../">Frustrated Lewis Pairs Database (FLPDB)</a></h1>
+
+ </div><!-- end .header -->
+	<div class="content">
+	<h1 style="text-align: center"> CH3OH</h1>
+		
+		
+	<div id="plot" class="centered">
+		
+		
+		
+		</div>
+	</div><!-- end of content -->
+	<div class="footer">
+	<p style="text-align: center">2021 Jingyun Ye</p>
+	</div>
+	
+	<script>
+
+var data;
+var x;
+var y;
+var flpid;
+
+function getFields(input, field) {
+    var output = [];
+    for (var i=0; i < input.length ; ++i)
+        output.push(input[i][field]);
+    return output;
+}
+
+Papa.parse('CH3OH.csv', {
+  header: true,
+  download: true,
+  dynamicTyping: true,
+  complete: function(results) {
+    console.log(results);
+    data = results.data;
+flpid = getFields(data, "FLPID")
+x = getFields(data, "LA-LB distance (A)");
+y = getFields(data, "E_CH3OH");
+z = getFields(data, "FLPID");
+x2 = getFields(data, "LA-LB distance (A)");
+y2 = getFields(data, "E_CH3OH_sol");
+z2 = getFields(data, "FLPID");
+
+
+
+
+ // Plots
+var plt = Bokeh.Plotting;
+
+// set up some data
+//var x = [6.247,2.217,3.518,1.807,1.79,2.991,1.758,3.008,2.978,3.011,2.912,2.96,1.725,1.753,3.462,2.152,2.173,2.355,3.463,2.229,2.049,2.008,1.713,1.728,2.082,2.171,2.104,2.149,2.121,2.142,2.095,3.258,3.508,3.247,3.25,3.119,3.778,3.462,3.344,1.869,3.435,2.864,3.253,2.028,2.019,3.846,3.08,2.671,2.082,3.394,1.729,3.539,,3.32,2.55,4.703,1.756,2.493,3.056,3.075,2.563,2.648,2.08622,,1.993,2.61169,3.24,3.359,3.435,2.955,2.938,1.716,1.704,1.717,1.781,1.727,5.195,5.433,4.0843,4.386,4.434,,,,,3.275,3.133,3.263,3.215,2.879,,2.808,2.928,1.633,2.195,1.910,1.910,2.198,2.069,2.014,2.176,,3.882,3.542,3.183,2.807,1.719,4.637,3.262,3.257,3.255,3.052,3.267,3.238,3.056,3.035,2.081,2.061,1.989,1.620,1.642,1.602,1.601,1.654,7.580,7.449,3.606,,,2.033,2.035,2.792,3.646,4.352,4.426,4.394,3.342];
+//var y = [-5.32,-5.20,-23.49,-34.33,-35.02,-3.82,-9.85,-20.25,5.19,-14.04,-9.88,-15.20,-3.32,-10.05,-17.57,-4.80,-20.96,-23.69,-9.74,-10.70,19.81,14.80,3.66,8.22,4.11,-7.94,-13.64,-6.11,3.53,0.72,0.18,-15.14,-18.26,-20.82,-23.23,-16.22,-20.49,-14.68,-13.32,14.90,3.25,-8.88,17.98,,1.83,-16.83,,-18.25,,-6.27,-2.72,-17.49,-8.82,-0.06,-14.05,-55.92,-40.62,-7.77,-14.43,-16.35,,,,733.22,-20.05,,9.32,,4.84,-1.85,-16.06,-5.22,-4.71,-3.28,-14.94,-9.84,,-4.08,,-7.40,0.26,,,,,4.82,3.63,15.87,8.65,16.88,,-2.26,13.45,-11.12,15.54,0.27,1.81,11.32,25.19,29.98,20.16,,,-10.33,3.09,-20.48,1.34,-9.40,21.55,29.54,27.61,16.69,17.81,21.65,1.89,2.08,7.68,2.89,22.04,-3.01,-2.70,-9.48,-9.69,7.03,2.10,1.31,-16.60,,,,,,,,,,];
+//var x2 = [-5.3, -5.2, -23.5, -34.3];
+//var y2 = [-34.3, -23.5, -5.2, -5.3];
+var colors = [];
+for (var c = 0; c <= 110; c+=2) {
+        colors.push(plt.color(10+2*c, 30+2*c, 150));
+		}
+    
+
+// create a data source
+var source = new Bokeh.ColumnDataSource({
+    data: { x: x, y: y, colors: colors }
+});
+var source2 = new Bokeh.ColumnDataSource({
+    data: { x: x2, y: y2, colors: colors, flpid: flpid }
+});
+
+var source = new Bokeh.ColumnDataSource({
+    data: { x: x, y: y, colors: colors, flpid: flpid }
+});
+
+// Add color Bar
+var mapper = new Bokeh.LinearColorMapper({
+	palette: colors,
+	low: -40,
+	high: 0
+});
+	 
+var color_bar = new Bokeh.ColorBar({
+	color_mapper: mapper,
+	label_standoff: 8,
+	padding: 10,
+	location: 'center',
+	width: 'auto',
+});
+		
+var hover = new Bokeh.HoverTool({tooltips:[
+  ['FLPID','@flpid'],
+  ['d(LA-LB)','@x{0.0}'],
+  ['ΔE(CH3OH)','@y{0.0}'],
+  
+]})
+
+
+// make the plot and add some tools
+var tools = "pan,crosshair,wheel_zoom,box_zoom,reset,save";
+var p = plt.figure({ title: "ΔE(CH3OH) in gas phase", tools: tools, toolbar_location: 'above', x_axis_label: 'd(LA-LB)/Å', y_axis_label: "ΔE(CH3OH)/(kcal/mol)",   });
+var p2 = plt.figure({ title: "ΔE(CH3OH) in toluene", tools: tools, toolbar_location: 'above', x_axis_label: 'd(LA-LB)/Å', y_axis_label: "ΔE(CH3OH)/(kcal/mol)",  });
+
+p.add_tools(hover)
+p2.add_tools(hover)
+
+
+// call the circle glyph method to add some circle glyphs
+var circles = p.circle({ field: "x" }, { field: "y" }, {
+    source: source,
+    radius: 0.1,
+    fill_color:{field: "y", transform: mapper},
+    fill_alpha: 1,
+    line_color: null
+}); 
+var circles2 = p2.circle({ field: "x" }, { field: "y" }, {
+    source: source2,
+    radius: 0.1,
+    fill_color: {field: "y", transform: mapper},
+    fill_alpha: 1,
+    line_color: null
+}); 
+
+// show the plot
+p.add_layout(color_bar, 'right');
+p2.add_layout(color_bar, 'right');
+plt.show(plt.gridplot([[p, p2]], {plot_width:400, plot_height:400}), '#plot');
+		
+
+
+}
+});	 
+</script>
+
+</body>
+	
+</html>
+
