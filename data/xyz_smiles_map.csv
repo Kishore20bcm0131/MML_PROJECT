@@ -1,0 +1,928 @@
+xyz_path,smiles,error
+data\raw\xyz\1\1.xyz,Cc1cc(C)c(P(c2c(C)cc(C)cc2C)c2c(F)c(F)c(B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)c(F)c2F)c(C)c1,
+data\raw\xyz\1\1CH3OH.xyz,CO.Cc1cc(C)c(P(c2c(C)cc(C)cc2C)c2c(F)c(F)c(B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)c(F)c2F)c(C)c1,
+data\raw\xyz\1\1CO2.xyz,Cc1cc(C)c(P(c2c(C)cc(C)cc2C)c2c(F)c(F)c(B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)c(F)c2F)c(C)c1.O=C=O,
+data\raw\xyz\1\1H2.xyz,,RDKit could not parse SMILES: c1(c(c(c(c(c1[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)F)F)[BH](c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)F)F
+data\raw\xyz\1\1H2CO.xyz,,RDKit could not parse SMILES: c1(c(c(c(c(c1P(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)F)F)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O[CH2])F)F
+data\raw\xyz\1\1H2O.xyz,Cc1cc(C)c(P(c2c(C)cc(C)cc2C)c2c(F)c(F)c(B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)c(F)c2F)c(C)c1.O,
+data\raw\xyz\1\1HCOOH.xyz,,RDKit could not parse SMILES: c1(c(c(c(c(c1P(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)F)F)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O[CH]O)F)F
+data\raw\xyz\10\10.xyz,Bc1ccccc1N1C(C)(C)CCCC1(C)C,
+data\raw\xyz\10\10CH3OH.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[BH2]OC
+data\raw\xyz\10\10CO2.xyz,,RDKit could not parse SMILES: c12ccccc1[N]1(C(CCCC1(C)C)(C)C)C(=O)O[BH2]2
+data\raw\xyz\10\10H2.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[BH3]
+data\raw\xyz\10\10H2CO.xyz,,RDKit could not parse SMILES: c1(ccccc1N1C(CCCC1(C)C)(C)C)[BH2]O[CH2]
+data\raw\xyz\10\10H2O.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[BH2]O
+data\raw\xyz\10\10HCOOH.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[BH2]OC=O
+data\raw\xyz\103\103.xyz,Cc1cc(C)c(B2c3cccc4cccc(c34)P2c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\103\103CH3OH.xyz,COB(c1c(C)cc(C)cc1C)c1cccc2cccc(Pc3c(C)cc(C)cc3C)c12,
+data\raw\xyz\103\103CO2.xyz,Cc1cc(C)c(B2OC(=O)P(c3c(C)cc(C)cc3C)c3cccc4cccc2c34)c(C)c1,
+data\raw\xyz\103\103H2.xyz,Cc1cc(C)c(Bc2cccc3cccc(Pc4c(C)cc(C)cc4C)c23)c(C)c1,
+data\raw\xyz\103\103H2CO.xyz,Cc1cc(C)c(B2OCP(c3c(C)cc(C)cc3C)c3cccc4cccc2c34)c(C)c1,
+data\raw\xyz\103\103H2O.xyz,Cc1cc(C)c(Pc2cccc3cccc(B(O)c4c(C)cc(C)cc4C)c23)c(C)c1,
+data\raw\xyz\103\103HCOOH.xyz,Cc1cc(C)c(Pc2cccc3cccc(B(OC=O)c4c(C)cc(C)cc4C)c23)c(C)c1,
+data\raw\xyz\104\104.xyz,Cc1cccc(C)c1B1c2cccc3cccc(c23)P1c1c(C)cccc1C,
+data\raw\xyz\104\104CH3OH.xyz,COB(c1c(C)cccc1C)c1cccc2cccc(Pc3c(C)cccc3C)c12,
+data\raw\xyz\104\104CO2.xyz,Cc1cccc(C)c1B1OC(=O)P(c2c(C)cccc2C)c2cccc3cccc1c23,
+data\raw\xyz\104\104H2.xyz,Cc1cccc(C)c1Bc1cccc2cccc(Pc3c(C)cccc3C)c12,
+data\raw\xyz\104\104H2CO.xyz,Cc1cccc(C)c1B1OCP(c2c(C)cccc2C)c2cccc3cccc1c23,
+data\raw\xyz\104\104H2O.xyz,Cc1cccc(C)c1Pc1cccc2cccc(B(O)c3c(C)cccc3C)c12,
+data\raw\xyz\104\104HCOOH.xyz,Cc1cccc(C)c1Pc1cccc2cccc(B(OC=O)c3c(C)cccc3C)c12,
+data\raw\xyz\105\105.xyz,,RDKit could not parse SMILES: [P]1([B](c2c3c1cccc3ccc2)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)(C(C)C)C(C)C
+data\raw\xyz\105\105CH3OH.xyz,CO.Cc1cc(C)c(B(c2c(C)cc(C)cc2C)c2cccc3cccc(P(C(C)C)C(C)C)c23)c(C)c1,
+data\raw\xyz\105\105CO2.xyz,,RDKit could not parse SMILES: [P]1(c2c3c([B](c4c(cc(cc4C)C)C)(c4c(cc(cc4C)C)C)OC1=O)cccc3ccc2)(C(C)C)C(C)C
+data\raw\xyz\105\105H2.xyz,,RDKit could not parse SMILES: [PH](c1c2c([BH](c3c(cc(cc3C)C)C)c3c(cc(cc3C)C)C)cccc2ccc1)(C(C)C)C(C)C
+data\raw\xyz\105\105H2CO.xyz,,RDKit could not parse SMILES: [P]1(c2c3c([B](c4c(cc(cc4C)C)C)(c4c(cc(cc4C)C)C)OC1)cccc3ccc2)(C(C)C)C(C)C
+data\raw\xyz\105\105H2O.xyz,Cc1cc(C)c(B(c2c(C)cc(C)cc2C)c2cccc3cccc(P(C(C)C)C(C)C)c23)c(C)c1.O,
+data\raw\xyz\105\105HCOOH.xyz,,RDKit could not parse SMILES: [PH](c1c2c([B](c3c(cc(cc3C)C)C)(c3c(cc(cc3C)C)C)OC=O)cccc2ccc1)(C(C)C)C(C)C
+data\raw\xyz\106\106.xyz,,RDKit could not parse SMILES: c12cccc3cccc(c13)[B]([P]2(C(C)C)C(C)C)(C1CCCCC1)C1CCCCC1
+data\raw\xyz\106\106CH3OH.xyz,CC(C)P(c1cccc2cccc(B(C3CCCCC3)C3CCCCC3)c12)C(C)C.CO,
+data\raw\xyz\106\106CO2.xyz,,RDKit could not parse SMILES: c12cccc3cccc(c13)[B](C1CCCCC1)(C1CCCCC1)OC(=O)[P]2(C(C)C)C(C)C
+data\raw\xyz\106\106H2.xyz,,RDKit could not parse SMILES: c1(cccc2cccc(c12)[BH](C1CCCCC1)C1CCCCC1)[PH](C(C)C)C(C)C
+data\raw\xyz\106\106H2CO.xyz,,RDKit could not parse SMILES: c12cccc3cccc(c13)[B](C1CCCCC1)(C1CCCCC1)OC[P]2(C(C)C)C(C)C
+data\raw\xyz\106\106H2O.xyz,CC(C)P(c1cccc2cccc(B(C3CCCCC3)C3CCCCC3)c12)C(C)C.O,
+data\raw\xyz\106\106HCOOH.xyz,,RDKit could not parse SMILES: c1(cccc2cccc(c12)[B](C1CCCCC1)(C1CCCCC1)OC=O)[PH](C(C)C)C(C)C
+data\raw\xyz\107\107.xyz,,RDKit could not parse SMILES: c12cccc3cccc(c13)[B]1(c3ccccc3-c3ccccc13)[P]2(C(C)C)C(C)C
+data\raw\xyz\107\107CH3OH.xyz,CC(C)P(c1cccc2cccc(B3c4ccccc4-c4ccccc43)c12)C(C)C.CO,
+data\raw\xyz\107\107CO2.xyz,,RDKit could not parse SMILES: c12cccc3cccc(c13)[B]1(c3ccccc3-c3ccccc13)OC(=O)[P]2(C(C)C)C(C)C
+data\raw\xyz\107\107H2.xyz,,RDKit could not parse SMILES: c1(cccc2cccc(c12)[BH]1c2ccccc2-c2ccccc12)[PH](C(C)C)C(C)C
+data\raw\xyz\107\107H2CO.xyz,,RDKit could not parse SMILES: c12cccc3cccc(c13)[B]1(c3ccccc3-c3ccccc13)OC[P]2(C(C)C)C(C)C
+data\raw\xyz\107\107H2O.xyz,CC(C)P(c1cccc2cccc(B3c4ccccc4-c4ccccc43)c12)C(C)C.O,
+data\raw\xyz\107\107HCOOH.xyz,,RDKit could not parse SMILES: c1(cccc2cccc(c12)[B]1(c2ccccc2-c2ccccc12)OC=O)[PH](C(C)C)C(C)C
+data\raw\xyz\108\108.xyz,,RDKit could not parse SMILES: [B]1(c2c3c(cccc3ccc2)[P]1(c1ccccc1)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\108\108CH3OH.xyz,CO.Cc1cc(C)c(B(c2c(C)cc(C)cc2C)c2cccc3cccc(P(c4ccccc4)c4ccccc4)c23)c(C)c1,
+data\raw\xyz\108\108CO2.xyz,,RDKit could not parse SMILES: [B]1(c2c3c(cccc3ccc2)[P](c2ccccc2)(c2ccccc2)C(=O)O1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\108\108H2.xyz,,RDKit could not parse SMILES: [BH](c1c2c(cccc2ccc1)[PH](c1ccccc1)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\108\108H2CO.xyz,,RDKit could not parse SMILES: [B](c1c2c(cccc2ccc1)P(c1ccccc1)c1ccccc1)(c1c(cc(cc1C)C)C)(c1c(cc(cc1C)C)C)O[CH2]
+data\raw\xyz\108\108H2O.xyz,Cc1cc(C)c(B(c2c(C)cc(C)cc2C)c2cccc3cccc(P(c4ccccc4)c4ccccc4)c23)c(C)c1.O,
+data\raw\xyz\108\108HCOOH.xyz,,RDKit could not parse SMILES: [B](c1c2c(cccc2ccc1)P(c1ccccc1)c1ccccc1)(c1c(cc(cc1C)C)C)(c1c(cc(cc1C)C)C)O[CH]O
+data\raw\xyz\109\109.xyz,Cc1cc(C)c(B(c2c(C)cc(C)cc2C)c2ccc3c4c(ccc(P(c5ccccc5)c5ccccc5)c24)CC3)c(C)c1,
+data\raw\xyz\109\109CH3OH.xyz,CO.Cc1cc(C)c(B(c2c(C)cc(C)cc2C)c2ccc3c4c(ccc(P(c5ccccc5)c5ccccc5)c24)CC3)c(C)c1,
+data\raw\xyz\109\109CO2.xyz,,RDKit could not parse SMILES: [B]1(c2c3c(ccc4c3c(cc2)CC4)[P](c2ccccc2)(c2ccccc2)C(=O)O1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\109\109H2.xyz,,RDKit could not parse SMILES: [BH](c1c2c(ccc3c2c(cc1)CC3)[PH](c1ccccc1)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\109\109H2CO.xyz,,RDKit could not parse SMILES: [B]1(c2c3c(ccc4c3c(cc2)CC4)[P](c2ccccc2)(c2ccccc2)CO1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\109\109H2O.xyz,Cc1cc(C)c(B(c2c(C)cc(C)cc2C)c2ccc3c4c(ccc(P(c5ccccc5)c5ccccc5)c24)CC3)c(C)c1.O,
+data\raw\xyz\109\109HCOOH.xyz,,RDKit could not parse SMILES: [B](c1c2c(ccc3c2c(cc1)CC3)[PH](c1ccccc1)c1ccccc1)(c1c(cc(cc1C)C)C)(c1c(cc(cc1C)C)C)OC=O
+data\raw\xyz\11\11.xyz,CC1(C)CCCC(C)(C)N1c1ccccc1B(Cl)Cl,
+data\raw\xyz\11\11CH3OH.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[B](Cl)(Cl)OC
+data\raw\xyz\11\11CO2.xyz,,RDKit could not parse SMILES: c12ccccc1[N]1(C(CCCC1(C)C)(C)C)C(=O)O[B]2(Cl)Cl
+data\raw\xyz\11\11H2.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[BH](Cl)Cl
+data\raw\xyz\11\11H2CO.xyz,,RDKit could not parse SMILES: c1(ccccc1N1C(CCCC1(C)C)(C)C)[B](Cl)(Cl)O[CH2]
+data\raw\xyz\11\11H2O.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[B](Cl)(Cl)O
+data\raw\xyz\11\11HCOOH.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[B](Cl)(Cl)OC=O
+data\raw\xyz\111\111.xyz,Cc1cc(C)c(B(c2cccc3c2-c2c-3cccc2P(c2ccccc2)c2ccccc2)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\111\111CH3OH.xyz,CO.Cc1cc(C)c(B(c2cccc3c2-c2c-3cccc2P(c2ccccc2)c2ccccc2)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\111\111CO2.xyz,,RDKit could not parse SMILES: [P]1(c2ccccc2)(c2c3-c4c(cccc4-c3ccc2)[B](c2c(cc(cc2C)C)C)(c2c(cc(cc2C)C)C)OC1=O)c1ccccc1
+data\raw\xyz\111\111H2.xyz,,RDKit could not parse SMILES: [PH](c1ccccc1)(c1c2-c3c(cccc3-c2ccc1)[BH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)c1ccccc1
+data\raw\xyz\111\111H2CO.xyz,,RDKit could not parse SMILES: [P]1(c2ccccc2)(c2c3-c4c(cccc4-c3ccc2)[B](c2c(cc(cc2C)C)C)(c2c(cc(cc2C)C)C)OC1)c1ccccc1
+data\raw\xyz\111\111H2O.xyz,Cc1cc(C)c(B(c2cccc3c2-c2c-3cccc2P(c2ccccc2)c2ccccc2)c2c(C)cc(C)cc2C)c(C)c1.O,
+data\raw\xyz\111\111HCOOH.xyz,,RDKit could not parse SMILES: P(c1ccccc1)(c1c2-c3c(cccc3-c2ccc1)[B](c1c(cc(cc1C)C)C)(c1c(cc(cc1C)C)C)O[CH]O)c1ccccc1
+data\raw\xyz\112\112.xyz,Cc1cc(C)c(P(c2cccc3c2-c2c(B(c4c(F)c(F)c(F)c(F)c4F)c4c(F)c(F)c(F)c(F)c4F)cccc2-3)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\112\112CH3OH.xyz,CO.Cc1cc(C)c(P(c2cccc3c2-c2c(B(c4c(F)c(F)c(F)c(F)c4F)c4c(F)c(F)c(F)c(F)c4F)cccc2-3)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\112\112CO2.xyz,,RDKit could not parse SMILES: [P]1(c2cccc3-c4cccc(c4-c23)[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\112\112H2.xyz,,RDKit could not parse SMILES: [PH](c1cccc2-c3cccc(c3-c12)[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\112\112H2CO.xyz,,RDKit could not parse SMILES: P(c1cccc2-c3cccc(c3-c12)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH2])(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\112\112H2O.xyz,Cc1cc(C)c(P(c2cccc3c2-c2c(B(c4c(F)c(F)c(F)c(F)c4F)c4c(F)c(F)c(F)c(F)c4F)cccc2-3)c2c(C)cc(C)cc2C)c(C)c1.O,
+data\raw\xyz\112\112HCOOH.xyz,,RDKit could not parse SMILES: [PH](c1cccc2-c3cccc(c3-c12)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\113\113.xyz,Cc1cc(C)c(B(c2ccccc2P(C2CCCCC2)C2CCCCC2)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\113\113CH3OH.xyz,CO.Cc1cc(C)c(B(c2ccccc2P(C2CCCCC2)C2CCCCC2)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\113\113CO2.xyz,,RDKit could not parse SMILES: [P]1(c2ccccc2[B](c2c(cc(cc2C)C)C)(c2c(cc(cc2C)C)C)OC1=O)(C1CCCCC1)C1CCCCC1
+data\raw\xyz\113\113H2.xyz,,RDKit could not parse SMILES: [PH](c1ccccc1[BH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)(C1CCCCC1)C1CCCCC1
+data\raw\xyz\113\113H2CO.xyz,,RDKit could not parse SMILES: [P]1(c2ccccc2[B](c2c(cc(cc2C)C)C)(c2c(cc(cc2C)C)C)OC1)(C1CCCCC1)C1CCCCC1
+data\raw\xyz\113\113H2O.xyz,Cc1cc(C)c(B(c2ccccc2P(C2CCCCC2)C2CCCCC2)c2c(C)cc(C)cc2C)c(C)c1.O,
+data\raw\xyz\113\113HCOOH.xyz,Cc1cc(C)c(B(c2ccccc2P(C2CCCCC2)C2CCCCC2)c2c(C)cc(C)cc2C)c(C)c1.O=CO,
+data\raw\xyz\114\114.xyz,Fc1c(F)c(F)c(B(c2c(F)c(F)c(F)c(F)c2F)[C@@H]2CCC[C@H]2N2CCCCC2)c(F)c1F,
+data\raw\xyz\114\114CH3OH.xyz,,RDKit could not parse SMILES: [B]([C@H]1[C@H]([NH]2CCCCC2)CCC1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC
+data\raw\xyz\114\114CO2.xyz,,RDKit could not parse SMILES: [B]1([C@H]2[C@H]([N]3(CCCCC3)C(=O)O1)CCC2)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\114\114H2.xyz,,RDKit could not parse SMILES: [BH]([C@H]1[C@H]([NH]2CCCCC2)CCC1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\114\114H2CO.xyz,,RDKit could not parse SMILES: [B]1([C@H]2[C@H]([N]3(CCCCC3)CO1)CCC2)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\114\114H2O.xyz,,RDKit could not parse SMILES: [B]([C@H]1[C@H]([NH]2CCCCC2)CCC1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\114\114HCOOH.xyz,,RDKit could not parse SMILES: [B]([C@H]1[C@H]([NH]2CCCCC2)CCC1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\115\115.xyz,,RDKit could not parse SMILES: c1cc2c(cc1)[N]([BH2]2)(C)C
+data\raw\xyz\115\115CH3OH.xyz,Bc1ccccc1N(C)C.CO,
+data\raw\xyz\115\115CO2.xyz,,RDKit could not parse SMILES: c1cc2c(cc1)[N](C)(C)C(=O)O[BH2]2
+data\raw\xyz\115\115H2.xyz,,RDKit could not parse SMILES: c1cc(c(cc1)[NH](C)C)[BH3]
+data\raw\xyz\115\115H2CO.xyz,,RDKit could not parse SMILES: c1cc2c(cc1)[N](C)(C)CO[BH2]2
+data\raw\xyz\115\115H2O.xyz,Bc1ccccc1N(C)C.O,
+data\raw\xyz\115\115HCOOH.xyz,,RDKit could not parse SMILES: c1cc(c(cc1)[NH](C)C)[BH2]OC=O
+data\raw\xyz\12\12.xyz,CC1(C)CCCC(C)(C)N1c1ccccc1BCl,
+data\raw\xyz\12\12CH3OH.xyz,[C]C=[CH].[H],
+data\raw\xyz\12\12CO2.xyz,,RDKit could not parse SMILES: c12ccccc1[N]1(C(CCCC1(C)C)(C)C)C(=O)O[B@H]2Cl
+data\raw\xyz\12\12H2.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[BH2]Cl
+data\raw\xyz\12\12H2CO.xyz,,RDKit could not parse SMILES: c12ccccc1[N]1(C(CCCC1(C)C)(C)C)CO[B@H]2Cl
+data\raw\xyz\12\12H2O.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[B@H](Cl)O
+data\raw\xyz\12\12HCOOH.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[B@@H](Cl)OC=O
+data\raw\xyz\120\120.xyz,CC1(C)CCCC(C)(C)N1CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F,
+data\raw\xyz\120\120CH3OH.xyz,CC1(C)CCCC(C)(C)N1CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.CO,
+data\raw\xyz\120\120CO2.xyz,CC1(C)CCCC(C)(C)N1CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.O=C=O,
+data\raw\xyz\120\120H2.xyz,,RDKit could not parse SMILES: [NH]1(CCC[BH](c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)C(CCCC1(C)C)(C)C
+data\raw\xyz\120\120H2CO.xyz,,RDKit could not parse SMILES: N1(CCC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)O[CH2])C(CCCC1(C)C)(C)C
+data\raw\xyz\120\120H2O.xyz,CC1(C)CCCC(C)(C)N1CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.O,
+data\raw\xyz\120\120HCOOH.xyz,,RDKit could not parse SMILES: N1(CCC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)O[CH]O)C(CCCC1(C)C)(C)C
+data\raw\xyz\122\122.xyz,COB(OC)c1ccccc1P(c1ccccc1)c1ccccc1,
+data\raw\xyz\122\122CH3OH.xyz,CO.COB(OC)c1ccccc1P(c1ccccc1)c1ccccc1,
+data\raw\xyz\122\122CO2.xyz,,RDKit could not parse SMILES: [P]1(c2c([B](OC)(OC)OC1=O)cccc2)(c1ccccc1)c1ccccc1
+data\raw\xyz\122\122H2.xyz,,RDKit could not parse SMILES: [PH](c1c([BH](OC)OC)cccc1)(c1ccccc1)c1ccccc1
+data\raw\xyz\122\122H2CO.xyz,C=O.COB(OC)c1ccccc1P(c1ccccc1)c1ccccc1,
+data\raw\xyz\122\122H2O.xyz,COB(OC)c1ccccc1P(c1ccccc1)c1ccccc1.O,
+data\raw\xyz\122\122HCOOH.xyz,COB(OC)c1ccccc1P(c1ccccc1)c1ccccc1.O=CO,
+data\raw\xyz\123\123.xyz,CC1(C)OB(c2ccccc2P(c2ccccc2)c2ccccc2)OC1(C)C,
+data\raw\xyz\123\123CH3OH.xyz,CC1(C)OB(c2ccccc2P(c2ccccc2)c2ccccc2)OC1(C)C.CO,
+data\raw\xyz\123\123CO2.xyz,CC1(C)OB(c2ccccc2P(c2ccccc2)c2ccccc2)OC1(C)C.O=C=O,
+data\raw\xyz\123\123H2.xyz,,RDKit could not parse SMILES: [PH](c1c([BH]2OC(C(O2)(C)C)(C)C)cccc1)(c1ccccc1)c1ccccc1
+data\raw\xyz\123\123H2CO.xyz,C=O.CC1(C)OB(c2ccccc2P(c2ccccc2)c2ccccc2)OC1(C)C,
+data\raw\xyz\123\123H2O.xyz,CC1(C)OB(c2ccccc2P(c2ccccc2)c2ccccc2)OC1(C)C.O,
+data\raw\xyz\123\123HCOOH.xyz,CC1(C)OB(c2ccccc2P(c2ccccc2)c2ccccc2)OC1(C)C.O=CO,
+data\raw\xyz\124\124.xyz,CC1(C)COB(c2ccccc2P(c2ccccc2)c2ccccc2)OC1,
+data\raw\xyz\124\124CH3OH.xyz,CC1(C)COB(c2ccccc2P(c2ccccc2)c2ccccc2)OC1.CO,
+data\raw\xyz\124\124CO2.xyz,CC1(C)COB(c2ccccc2P(c2ccccc2)c2ccccc2)OC1.O=C=O,
+data\raw\xyz\124\124H2.xyz,,RDKit could not parse SMILES: [PH](c1c([BH]2OCC(CO2)(C)C)cccc1)(c1ccccc1)c1ccccc1
+data\raw\xyz\124\124H2CO.xyz,C=O.CC1(C)COB(c2ccccc2P(c2ccccc2)c2ccccc2)OC1,
+data\raw\xyz\124\124H2O.xyz,CC1(C)COB(c2ccccc2P(c2ccccc2)c2ccccc2)OC1.O,
+data\raw\xyz\124\124HCOOH.xyz,CC1(C)COB(c2ccccc2P(c2ccccc2)c2ccccc2)OC1.O=CO,
+data\raw\xyz\125\125.xyz,COB(OC)c1ccccc1P(C(C)C)C(C)C,
+data\raw\xyz\125\125CH3OH.xyz,CO.COB(OC)c1ccccc1P(C(C)C)C(C)C,
+data\raw\xyz\125\125CO2.xyz,,RDKit could not parse SMILES: [P]1(c2c([B](OC)(OC)OC1=O)cccc2)(C(C)C)C(C)C
+data\raw\xyz\125\125H2.xyz,,RDKit could not parse SMILES: [PH](c1c([BH](OC)OC)cccc1)(C(C)C)C(C)C
+data\raw\xyz\125\125H2CO.xyz,C=O.COB(OC)c1ccccc1P(C(C)C)C(C)C,
+data\raw\xyz\125\125H2O.xyz,COB(OC)c1ccccc1P(C(C)C)C(C)C.O,
+data\raw\xyz\125\125HCOOH.xyz,COB(OC)c1ccccc1P(C(C)C)C(C)C.O=CO,
+data\raw\xyz\126\126.xyz,CC(C)P(c1ccccc1B1Oc2ccccc2O1)C(C)C,
+data\raw\xyz\126\126CH3OH.xyz,CC(C)P(c1ccccc1B1Oc2ccccc2O1)C(C)C.CO,
+data\raw\xyz\126\126CO2.xyz,CC(C)P(c1ccccc1B1Oc2ccccc2O1)C(C)C.O=C=O,
+data\raw\xyz\126\126H2.xyz,,RDKit could not parse SMILES: [PH](c1c([BH]2Oc3c(O2)cccc3)cccc1)(C(C)C)C(C)C
+data\raw\xyz\126\126H2CO.xyz,C=O.CC(C)P(c1ccccc1B1Oc2ccccc2O1)C(C)C,
+data\raw\xyz\126\126H2O.xyz,CC(C)P(c1ccccc1B1Oc2ccccc2O1)C(C)C.O,
+data\raw\xyz\126\126HCOOH.xyz,CC(C)P(c1ccccc1B1Oc2ccccc2O1)C(C)C.O=CO,
+data\raw\xyz\127\127.xyz,CC(C)P(c1ccccc1B1OC(C)(C)C(C)(C)O1)C(C)C,
+data\raw\xyz\127\127CH3OH.xyz,CC(C)P(c1ccccc1B1OC(C)(C)C(C)(C)O1)C(C)C.CO,
+data\raw\xyz\127\127CO2.xyz,,RDKit could not parse SMILES: [P]1(c2c([B]3(OC(C(O3)(C)C)(C)C)OC1=O)cccc2)(C(C)C)C(C)C
+data\raw\xyz\127\127H2.xyz,,RDKit could not parse SMILES: [PH](c1c([BH]2OC(C(O2)(C)C)(C)C)cccc1)(C(C)C)C(C)C
+data\raw\xyz\127\127H2CO.xyz,C=O.CC(C)P(c1ccccc1B1OC(C)(C)C(C)(C)O1)C(C)C,
+data\raw\xyz\127\127H2O.xyz,CC(C)P(c1ccccc1B1OC(C)(C)C(C)(C)O1)C(C)C.O,
+data\raw\xyz\127\127HCOOH.xyz,CC(C)P(c1ccccc1B1OC(C)(C)C(C)(C)O1)C(C)C.O=CO,
+data\raw\xyz\129\129.xyz,Cc1cc(C)c(B(c2ccccc2N(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\129\129CH3OH.xyz,CO.Cc1cc(C)c(B(c2ccccc2N(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\129\129CO2.xyz,,RDKit could not parse SMILES: Cc1cc(C)cc(c1[B]1(c2c(C)cc(C)cc2C)c2c([N](C)(C)C(=O)O1)cccc2)C
+data\raw\xyz\129\129H2.xyz,,RDKit could not parse SMILES: Cc1cc(C)cc(c1[BH](c1c(C)cc(C)cc1C)c1c([NH](C)C)cccc1)C
+data\raw\xyz\129\129H2CO.xyz,,RDKit could not parse SMILES: Cc1cc(C)cc(c1[B]1(c2c(C)cc(C)cc2C)c2c([N](C)(C)CO1)cccc2)C
+data\raw\xyz\129\129H2O.xyz,,RDKit could not parse SMILES: Cc1cc(C)cc(c1B(c1c(C)cc(C)cc1C)c1c([NH](C)C)cccc1)C.[OH]
+data\raw\xyz\129\129HCOOH.xyz,,RDKit could not parse SMILES: Cc1cc(C)cc(c1[B](c1c(C)cc(C)cc1C)(c1c([NH](C)C)cccc1)OC=O)C
+data\raw\xyz\13\13.xyz,CC1(C)CCCC(C)(C)N1c1ccccc1B(Cl)c1c(F)c(F)c(F)c(F)c1F,
+data\raw\xyz\13\13CH3OH.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[B@@](c1c(F)c(F)c(F)c(F)c1F)(Cl)OC
+data\raw\xyz\13\13CO2.xyz,,RDKit could not parse SMILES: c12ccccc1[N]1(C(CCCC1(C)C)(C)C)C(=O)O[B@]2(c1c(F)c(F)c(F)c(F)c1F)Cl
+data\raw\xyz\13\13H2.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[B@@H](c1c(F)c(F)c(F)c(F)c1F)Cl
+data\raw\xyz\13\13H2CO.xyz,,RDKit could not parse SMILES: c12ccccc1[N]1(C(CCCC1(C)C)(C)C)CO[B@]2(c1c(F)c(F)c(F)c(F)c1F)Cl
+data\raw\xyz\13\13H2O.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[B@@](c1c(F)c(F)c(F)c(F)c1F)(Cl)O
+data\raw\xyz\13\13HCOOH.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[B@@](c1c(F)c(F)c(F)c(F)c1F)(Cl)OC=O
+data\raw\xyz\130\130.xyz,Cc1cc(C)c(B(c2cc(C)c(C)cc2C)c2ccccc2N(C)C)cc1C,
+data\raw\xyz\130\130CH3OH.xyz,CO.Cc1cc(C)c(B(c2cc(C)c(C)cc2C)c2ccccc2N(C)C)cc1C,
+data\raw\xyz\130\130CO2.xyz,Cc1cc(C)c(B(c2cc(C)c(C)cc2C)c2ccccc2N(C)C)cc1C.O=C=O,
+data\raw\xyz\130\130H2.xyz,,RDKit could not parse SMILES: Cc1cc(C)c(C)cc1[BH](c1c(C)cc(C)c(C)c1)c1c([NH](C)C)cccc1
+data\raw\xyz\130\130H2CO.xyz,,RDKit could not parse SMILES: Cc1cc(C)c(C)cc1[B]1(c2c(C)cc(C)c(C)c2)c2c([N](C)(C)CO1)cccc2
+data\raw\xyz\130\130H2O.xyz,,RDKit could not parse SMILES: Cc1cc(C)c(C)cc1B(c1c(C)cc(C)c(C)c1)c1c([NH](C)C)cccc1.[OH]
+data\raw\xyz\130\130HCOOH.xyz,,RDKit could not parse SMILES: Cc1cc(C)c(C)cc1[B](c1c(C)cc(C)c(C)c1)(c1c([NH](C)C)cccc1)OC=O
+data\raw\xyz\131\131.xyz,,RDKit could not parse SMILES: [P]1(CC(=CC[B]1(c1c(F)c(F)c(F)c(F)c1F)c1c(c(c(c(c1F)F)F)F)F)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\131\131CH3OH.xyz,C/C(=C/CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)CP(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C.CO,
+data\raw\xyz\131\131CO2.xyz,,RDKit could not parse SMILES: [P]1(CC(=CC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(c(c(c(c2F)F)F)F)F)OC1=O)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\131\131H2.xyz,,RDKit could not parse SMILES: [PH](C/C(=C\C[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(c(c(c(c1F)F)F)F)F)/C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\131\131H2CO.xyz,,RDKit could not parse SMILES: [P]1(CC(=CC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(c(c(c(c2F)F)F)F)F)OC1)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\131\131H2O.xyz,C/C(=C/CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)CP(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C.O,
+data\raw\xyz\131\131HCOOH.xyz,,RDKit could not parse SMILES: [PH](C/C(=C\C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(c(c(c(c1F)F)F)F)F)OC=O)/C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\132\132.xyz,,RDKit could not parse SMILES: [P]1(CC(=CC[B]1(c1c(F)c(F)c(F)c(F)c1F)c1c(c(c(c(c1F)F)F)F)F)C)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\132\132CH3OH.xyz,C/C(=C/CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)CP(C(C)(C)C)C(C)(C)C.CO,
+data\raw\xyz\132\132CO2.xyz,,RDKit could not parse SMILES: [P]1(CC(=CC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(c(c(c(c2F)F)F)F)F)OC1=O)C)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\132\132H2.xyz,,RDKit could not parse SMILES: [PH](C/C(=C\C[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(c(c(c(c1F)F)F)F)F)/C)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\132\132H2CO.xyz,,RDKit could not parse SMILES: [P]1(CC(=CC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(c(c(c(c2F)F)F)F)F)OC1)C)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\132\132H2O.xyz,C/C(=C/CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)CP(C(C)(C)C)C(C)(C)C.O,
+data\raw\xyz\132\132HCOOH.xyz,,RDKit could not parse SMILES: [PH](C/C(=C\C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(c(c(c(c1F)F)F)F)F)OC=O)/C)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\133\133.xyz,,RDKit could not parse SMILES: [P]1(CC(=CC[B]1(c1c(F)c(F)c(F)c(F)c1F)c1c(c(c(c(c1F)F)F)F)F)C)(c1ccccc1)c1ccccc1
+data\raw\xyz\133\133CH3OH.xyz,C/C(=C/CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)CP(c1ccccc1)c1ccccc1.CO,
+data\raw\xyz\133\133CO2.xyz,,RDKit could not parse SMILES: [P]1(CC(=CC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(c(c(c(c2F)F)F)F)F)OC1=O)C)(c1ccccc1)c1ccccc1
+data\raw\xyz\133\133H2.xyz,,RDKit could not parse SMILES: [PH](C/C(=C\C[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(c(c(c(c1F)F)F)F)F)/C)(c1ccccc1)c1ccccc1
+data\raw\xyz\133\133H2CO.xyz,,RDKit could not parse SMILES: P(C/C(=C\C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(c(c(c(c1F)F)F)F)F)O[CH2])/C)(c1ccccc1)c1ccccc1
+data\raw\xyz\133\133H2O.xyz,C/C(=C/CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)CP(c1ccccc1)c1ccccc1.O,
+data\raw\xyz\133\133HCOOH.xyz,,RDKit could not parse SMILES: P(C/C(=C\C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(c(c(c(c1F)F)F)F)F)O[CH]O)/C)(c1ccccc1)c1ccccc1
+data\raw\xyz\134\134.xyz,,RDKit could not parse SMILES: [B]1(C[C]2C=CC=C(C)N12)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\134\134CH3OH.xyz,,RDKit could not parse SMILES: [B](C[C]1C=CC=C(C)N1)(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC
+data\raw\xyz\134\134CO2.xyz,,RDKit could not parse SMILES: [B]1(C[C]2C=CC=C(C)N2C(=O)O1)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\134\134H2.xyz,,RDKit could not parse SMILES: [BH](C[C]1C=CC=C(C)N1)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\134\134H2CO.xyz,,RDKit could not parse SMILES: [B]1(C[C]2C=CC=C(C)N2CO1)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\134\134H2O.xyz,,RDKit could not parse SMILES: [B](C[C]1C=CC=C(C)N1)(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O
+data\raw\xyz\134\134HCOOH.xyz,,RDKit could not parse SMILES: [B](C[C]1C=CC=C(C)N1)(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC=O
+data\raw\xyz\135\135.xyz,,RDKit could not parse SMILES: [B]1(C[C]2C=CC=CN12)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\135\135CH3OH.xyz,,RDKit could not parse SMILES: [B](C[C]1C=CC=CN1)(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC
+data\raw\xyz\135\135CO2.xyz,,RDKit could not parse SMILES: [B]1(C[C]2C=CC=CN2C(=O)O1)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\135\135H2.xyz,,RDKit could not parse SMILES: [BH](C[C]1C=CC=CN1)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\135\135H2CO.xyz,,RDKit could not parse SMILES: [B]1(C[C]2C=CC=CN2CO1)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\135\135H2O.xyz,,RDKit could not parse SMILES: [B](C[C]1C=CC=CN1)(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O
+data\raw\xyz\135\135HCOOH.xyz,,RDKit could not parse SMILES: [B](C[C]1C=CC=CN1)(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC=O
+data\raw\xyz\136\136.xyz,,RDKit could not parse SMILES: [B]1(C[C]2C=C(C=C(C)N12)N(C)C)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\136\136CH3OH.xyz,,RDKit could not parse SMILES: [B](C[C]1C=C(C=C(C)N1)N(C)C)(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC
+data\raw\xyz\136\136CO2.xyz,,RDKit could not parse SMILES: [B]1(C[C]2C=C(C=C(C)N2C(=O)O1)N(C)C)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\136\136H2.xyz,,RDKit could not parse SMILES: [BH](C[C]1C=C(C=C(C)N1)N(C)C)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\136\136H2CO.xyz,,RDKit could not parse SMILES: [B]1(C[C]2C=C(C=C(C)N2CO1)N(C)C)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\136\136H2O.xyz,,RDKit could not parse SMILES: [B](C[C]1C=C(C=C(C)N1)N(C)C)(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O
+data\raw\xyz\136\136HCOOH.xyz,,RDKit could not parse SMILES: [B](C[C]1C=C(C=C(C)N1)N(C)C)(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC=O
+data\raw\xyz\137\137.xyz,,RDKit could not parse SMILES: [B]1(C[C]2C=C(C=C(C)N12)N1CCCCC1)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\137\137CH3OH.xyz,,RDKit could not parse SMILES: [B](C[C]1C=C(C=C(C)N1)N1CCCCC1)(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC
+data\raw\xyz\137\137CO2.xyz,,RDKit could not parse SMILES: [B]1(C[C]2C=C(C=C(C)N2C(=O)O1)N1CCCCC1)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\137\137H2.xyz,,RDKit could not parse SMILES: [BH](C[C]1C=C(C=C(C)N1)N1CCCCC1)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\137\137H2CO.xyz,,RDKit could not parse SMILES: [B]1(C[C]2C=C(C=C(C)N2CO1)N1CCCCC1)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\137\137H2O.xyz,,RDKit could not parse SMILES: [B](C[C]1C=C(C=C(C)N1)N1CCCCC1)(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O
+data\raw\xyz\137\137HCOOH.xyz,,RDKit could not parse SMILES: [B](C[C]1C=C(C=C(C)N1)N1CCCCC1)(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC=O
+data\raw\xyz\138\138.xyz,,RDKit could not parse SMILES: [B]1(c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)N2[C](C=CC=C2C)CCCC1
+data\raw\xyz\138\138CH3OH.xyz,CC1=CC=C[C](CCCCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)N1.C[O],
+data\raw\xyz\138\138CO2.xyz,,RDKit could not parse SMILES: [B]1(c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)CCCC[C]2C=CC=C(C)N2C(=O)O1
+data\raw\xyz\138\138H2.xyz,,RDKit could not parse SMILES: [BH](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)CCCC[C]1C=CC=C(C)N1
+data\raw\xyz\138\138H2CO.xyz,,RDKit could not parse SMILES: [B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)(CCCCC1=[N]=C([CH]C=C1)C)O[CH2]
+data\raw\xyz\138\138H2O.xyz,CC1=CC=C[C](CCCCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)N1.[OH],
+data\raw\xyz\138\138HCOOH.xyz,,RDKit could not parse SMILES: [B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)(CCCC[C]1C=CC=C(C)N1)OC=O
+data\raw\xyz\139\139.xyz,,RDKit could not parse SMILES: B(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)CCCCC1=[N]=C([CH]C=C1)C(C)(C)C
+data\raw\xyz\139\139CH3OH.xyz,,RDKit could not parse SMILES: B(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)CCCCC1=[N]=C([CH]C=C1)C(C)(C)C.CO
+data\raw\xyz\139\139CO2.xyz,,RDKit could not parse SMILES: B(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)CCCCC1=[N]=C([CH]C=C1)C(C)(C)C.O=C=O
+data\raw\xyz\139\139H2.xyz,,RDKit could not parse SMILES: [BH](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)CCCC[C]1C=CC=C(C(C)(C)C)N1
+data\raw\xyz\139\139H2CO.xyz,,RDKit could not parse SMILES: B(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)CCCCC1=[N]=C([CH]C=C1)C(C)(C)C.C=O
+data\raw\xyz\139\139H2O.xyz,,RDKit could not parse SMILES: B(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)CCCCC1=[N]=C([CH]C=C1)C(C)(C)C.O
+data\raw\xyz\139\139HCOOH.xyz,,RDKit could not parse SMILES: B(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)CCCCC1=[N]=C([CH]C=C1)C(C)(C)C.C(=O)O
+data\raw\xyz\14\14.xyz,,OpenBabel produced no output
+data\raw\xyz\14\14CH3OH.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH](C)C)[B@@H](c1c(F)c(F)c(F)c(F)c1F)OC
+data\raw\xyz\14\14CO2.xyz,,RDKit could not parse SMILES: c12ccccc1[N](C)(C)C(=O)O[B@@H]2c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\14\14H2.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH](C)C)[BH2]c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\14\14H2CO.xyz,,RDKit could not parse SMILES: c12ccccc1[N](C)(C)CO[B@H]2c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\14\14H2O.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH](C)C)[B@@H](c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\14\14HCOOH.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH](C)C)[B@@H](c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\140\140.xyz,CC(C)(C)P(c1ccc([C@H]2[C@H](B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)[C@H]3CC[C@]2(C)C3(C)C)cc1)C(C)(C)C,
+data\raw\xyz\140\140CH3OH.xyz,CC(C)(C)P(c1ccc([C@H]2[C@H](B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)[C@H]3CC[C@]2(C)C3(C)C)cc1)C(C)(C)C.CO,
+data\raw\xyz\140\140CO2.xyz,CC(C)(C)P(c1ccc([C@H]2[C@H](B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)[C@H]3CC[C@]2(C)C3(C)C)cc1)C(C)(C)C.O=C=O,
+data\raw\xyz\140\140H2.xyz,,RDKit could not parse SMILES: [PH](c1ccc([C@H]2[C@H]([BH](c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)[C@H]3CC[C@@]2(C3(C)C)C)cc1)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\140\140H2CO.xyz,C=O.CC(C)(C)P(c1ccc([C@H]2[C@H](B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)[C@H]3CC[C@]2(C)C3(C)C)cc1)C(C)(C)C,
+data\raw\xyz\140\140H2O.xyz,CC(C)(C)P(c1ccc([C@H]2[C@H](B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)[C@H]3CC[C@]2(C)C3(C)C)cc1)C(C)(C)C.O,
+data\raw\xyz\140\140HCOOH.xyz,CC(C)(C)P(c1ccc([C@H]2[C@H](B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)[C@H]3CC[C@]2(C)C3(C)C)cc1)C(C)(C)C.O=CO,
+data\raw\xyz\141\141.xyz,CC1(C)[C@@H]2CC[C@@]1(C)[C@H](N1CCCCC1)[C@H]2B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F,
+data\raw\xyz\141\141CH3OH.xyz,CC1(C)[C@@H]2CC[C@@]1(C)[C@H](N1CCCCC1)[C@H]2B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.CO,
+data\raw\xyz\141\141CO2.xyz,CC1(C)[C@@H]2CC[C@@]1(C)[C@H](N1CCCCC1)[C@H]2B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.O=C=O,
+data\raw\xyz\141\141H2.xyz,,RDKit could not parse SMILES: [C@]12([C@@H]([C@H]([C@@H](CC1)C2(C)C)[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)[NH]1CCCCC1)C
+data\raw\xyz\141\141H2CO.xyz,,RDKit could not parse SMILES: [C@]12([C@@H]([C@H]([C@@H](CC1)C2(C)C)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH2])N1CCCCC1)C
+data\raw\xyz\141\141H2O.xyz,CC1(C)[C@@H]2CC[C@@]1(C)[C@H](N1CCCCC1)[C@H]2B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.O,
+data\raw\xyz\141\141HCOOH.xyz,CC1(C)[C@@H]2CC[C@@]1(C)[C@H](N1CCCCC1)[C@H]2B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.O=CO,
+data\raw\xyz\148\148.xyz,Cc1cc(C)c(P(/C(=C(\B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2ccccc2)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\148\148CH3OH.xyz,CO.Cc1cc(C)c(P(/C(=C(\B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2ccccc2)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\148\148CO2.xyz,,RDKit could not parse SMILES: [P]1(C(=C([B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O)c1c(F)c(F)c(F)c(F)c1F)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\148\148H2.xyz,,RDKit could not parse SMILES: [PH](/C(=C(\[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)/c1c(F)c(F)c(F)c(F)c1F)/c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\148\148H2CO.xyz,,RDKit could not parse SMILES: [P]1(C(=C([B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1)c1c(F)c(F)c(F)c(F)c1F)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\148\148H2O.xyz,Cc1cc(C)c(P(/C(=C(\B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2ccccc2)c2c(C)cc(C)cc2C)c(C)c1.O,
+data\raw\xyz\148\148HCOOH.xyz,,RDKit could not parse SMILES: P(/C(=C(\[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH]O)/c1c(F)c(F)c(F)c(F)c1F)/c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\149\149.xyz,,RDKit could not parse SMILES: C1(=C(c2c(F)c(F)c(F)c(F)c2F)[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)[P]1(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)c1ccc(cc1)C
+data\raw\xyz\149\149CH3OH.xyz,CO.Cc1ccc(/C(=C(/B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)P(c2c(C)cc(C)cc2C)c2c(C)cc(C)cc2C)cc1,
+data\raw\xyz\149\149CO2.xyz,,RDKit could not parse SMILES: C1(=C(c2c(F)c(F)c(F)c(F)c2F)[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC(=O)[P]1(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)c1ccc(cc1)C
+data\raw\xyz\149\149H2.xyz,,RDKit could not parse SMILES: C(=C(\c1c(F)c(F)c(F)c(F)c1F)/[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(\c1ccc(cc1)C)/[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\149\149H2CO.xyz,,RDKit could not parse SMILES: [C]1([C](c2c(F)c(F)c(F)c(F)c2F)[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC[P]1(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)c1ccc(cc1)C
+data\raw\xyz\149\149H2O.xyz,,RDKit could not parse SMILES: C(=C(\c1c(F)c(F)c(F)c(F)c1F)/[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)(\c1ccc(cc1)C)/[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\149\149HCOOH.xyz,,RDKit could not parse SMILES: C(=C(\c1c(F)c(F)c(F)c(F)c1F)/[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH]O)(\c1ccc(cc1)C)/P(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\15\15.xyz,,RDKit could not parse SMILES: c12ccccc1[N](C)(C)[B]2(Cl)Cl
+data\raw\xyz\15\15CH3OH.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH](C)C)[B](Cl)(Cl)OC
+data\raw\xyz\15\15CO2.xyz,,RDKit could not parse SMILES: c12ccccc1[N](C)(C)C(=O)O[B]2(Cl)Cl
+data\raw\xyz\15\15H2.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH](C)C)[BH](Cl)Cl
+data\raw\xyz\15\15H2CO.xyz,,RDKit could not parse SMILES: c12ccccc1[N](C)(C)CO[B]2(Cl)Cl
+data\raw\xyz\15\15H2O.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH](C)C)[B](Cl)(Cl)O
+data\raw\xyz\15\15HCOOH.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH](C)C)[B](Cl)(Cl)OC=O
+data\raw\xyz\150\150.xyz,,RDKit could not parse SMILES: C1(=C(c2c(F)c(F)c(F)c(F)c2F)[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)[P]1(c1ccccc1)c1ccccc1)C
+data\raw\xyz\150\150CH3OH.xyz,C/C(=C(/B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)P(c1ccccc1)c1ccccc1.CO,
+data\raw\xyz\150\150CO2.xyz,,RDKit could not parse SMILES: C1(=C(c2c(F)c(F)c(F)c(F)c2F)[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC(=O)[P]1(c1ccccc1)c1ccccc1)C
+data\raw\xyz\150\150H2.xyz,,RDKit could not parse SMILES: C(=C(\c1c(F)c(F)c(F)c(F)c1F)/[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(\C)/[PH](c1ccccc1)c1ccccc1
+data\raw\xyz\150\150H2CO.xyz,,RDKit could not parse SMILES: C1(=C(c2c(F)c(F)c(F)c(F)c2F)[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)O[CH]P1(c1ccccc1)c1ccccc1)C
+data\raw\xyz\150\150H2O.xyz,,RDKit could not parse SMILES: C(=C(\c1c(F)c(F)c(F)c(F)c1F)/[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)(\C)/[PH](c1ccccc1)c1ccccc1
+data\raw\xyz\150\150HCOOH.xyz,,RDKit could not parse SMILES: [C]([C](c1c(F)c(F)c(F)c(F)c1F)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O)(C)[PH](c1ccccc1)c1ccccc1
+data\raw\xyz\151\151.xyz,,RDKit could not parse SMILES: C1(=C(c2c(F)c(F)c(F)c(F)c2F)[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)[P]1(c1ccccc1)c1ccccc1)CCC
+data\raw\xyz\151\151CH3OH.xyz,,RDKit could not parse SMILES: C(=C(\c1c(F)c(F)c(F)c(F)c1F)/[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC)(\CCC)/[PH](c1ccccc1)c1ccccc1
+data\raw\xyz\151\151CO2.xyz,,RDKit could not parse SMILES: C1(=C(c2c(F)c(F)c(F)c(F)c2F)[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC(=O)[P]1(c1ccccc1)c1ccccc1)CCC
+data\raw\xyz\151\151H2.xyz,,RDKit could not parse SMILES: C(=C(\c1c(F)c(F)c(F)c(F)c1F)/[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(\CCC)/[PH](c1ccccc1)c1ccccc1
+data\raw\xyz\151\151H2CO.xyz,,RDKit could not parse SMILES: C1(=C(c2c(F)c(F)c(F)c(F)c2F)[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC[P]1(c1ccccc1)c1ccccc1)CCC
+data\raw\xyz\151\151H2O.xyz,CCC/C(=C(/B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)P(c1ccccc1)c1ccccc1.O,
+data\raw\xyz\151\151HCOOH.xyz,,RDKit could not parse SMILES: C(=C(\c1c(F)c(F)c(F)c(F)c1F)/[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O)(\CCC)/[PH](c1ccccc1)c1ccccc1
+data\raw\xyz\152\152.xyz,CC[C@@H](B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)P(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F,
+data\raw\xyz\152\152CH3OH.xyz,CC[C@@H](B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)P(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.CO,
+data\raw\xyz\152\152CO2.xyz,,RDKit could not parse SMILES: [P]1([C@@H](CC)[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\152\152H2.xyz,,RDKit could not parse SMILES: [PH]([C@@H](CC)[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\152\152H2CO.xyz,,RDKit could not parse SMILES: [P]1([C@@H](CC)[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\152\152H2O.xyz,CC[C@@H](B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)P(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.O,
+data\raw\xyz\152\152HCOOH.xyz,CC[C@@H](B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)P(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.O=CO,
+data\raw\xyz\153\153.xyz,C[C@H](CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)P(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F,
+data\raw\xyz\153\153CH3OH.xyz,CO.C[C@H](CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)P(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F,
+data\raw\xyz\153\153CO2.xyz,,RDKit could not parse SMILES: [P]1([C@@H](C[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\153\153H2.xyz,,RDKit could not parse SMILES: [PH]([C@@H](C[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\153\153H2CO.xyz,,RDKit could not parse SMILES: [P]1([C@@H](C[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\153\153H2O.xyz,C[C@H](CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)P(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.O,
+data\raw\xyz\153\153HCOOH.xyz,,RDKit could not parse SMILES: P([C@@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH]O)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\154\154.xyz,,RDKit could not parse SMILES: [P](C(C)(C)C)(CC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\154\154CH3OH.xyz,,RDKit could not parse SMILES: [P](C(C)(C)C)(CC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(C(C)(C)C)C(C)(C)C.OC
+data\raw\xyz\154\154CO2.xyz,,RDKit could not parse SMILES: [P](C(C)(C)C)(CC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC(=O)c1c(F)c(F)c(F)c(F)c1F)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\154\154H2.xyz,CC(C)(C)[PH](CCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(C(C)(C)C)C(C)(C)C.Fc1cc(F)c(F)c(F)c1F,
+data\raw\xyz\154\154H2CO.xyz,,RDKit could not parse SMILES: [P](C(C)(C)C)(CC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(C(C)(C)C)C(C)(C)C.C=O
+data\raw\xyz\154\154H2O.xyz,,RDKit could not parse SMILES: [P](C(C)(C)C)(CC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(C(C)(C)C)C(C)(C)C.O
+data\raw\xyz\154\154HCOOH.xyz,,RDKit could not parse SMILES: [P](C(C)(C)C)(CC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(C(C)(C)C)C(C)(C)C.C(=O)O
+data\raw\xyz\155\155.xyz,,RDKit could not parse SMILES: [P](C(C)(C)C)([C@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\155\155CH3OH.xyz,,RDKit could not parse SMILES: [P](C(C)(C)C)([C@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C)(C(C)(C)C)C(C)(C)C.CO
+data\raw\xyz\155\155CO2.xyz,,RDKit could not parse SMILES: [P](C(C)(C)C)([C@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)Oc1c(F)c(F)c(F)c(F)c1F)C)(C(C)(C)C)C(C)(C)C.O=[C]
+data\raw\xyz\155\155H2.xyz,C[C@@H](CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)[PH](C(C)(C)C)(C(C)(C)C)C(C)(C)C.Fc1cc(F)c(F)c(F)c1F,
+data\raw\xyz\155\155H2CO.xyz,,RDKit could not parse SMILES: [P](C(C)(C)C)([C@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C)(C(C)(C)C)C(C)(C)C.C=O
+data\raw\xyz\155\155H2O.xyz,,RDKit could not parse SMILES: [P](C(C)(C)C)([C@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C)(C(C)(C)C)C(C)(C)C.O
+data\raw\xyz\155\155HCOOH.xyz,,RDKit could not parse SMILES: [P](C(C)(C)C)([C@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C)(C(C)(C)C)C(C)(C)C.C(=O)O
+data\raw\xyz\156\156.xyz,,RDKit could not parse SMILES: [P]([C@@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(c1F)F)CCCC)(C(C)(C)C)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\156\156CH3OH.xyz,,RDKit could not parse SMILES: [P]([C@@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(c1F)F)CCCC)(C(C)(C)C)(C(C)(C)C)C(C)(C)C.OC
+data\raw\xyz\156\156CO2.xyz,,RDKit could not parse SMILES: [P]([C@@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(c1F)F)Oc1c(F)c(F)c(F)c(F)c1F)CCCC)(C(C)(C)C)(C(C)(C)C)C(C)(C)C.O=[C]
+data\raw\xyz\156\156H2.xyz,CCCC[C@H](CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)[PH](C(C)(C)C)(C(C)(C)C)C(C)(C)C.Fc1cc(F)c(F)c(F)c1F,
+data\raw\xyz\156\156H2CO.xyz,,RDKit could not parse SMILES: [P]([C@@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(c1F)F)OCc1c(F)c(F)c(F)c(F)c1F)CCCC)(C(C)(C)C)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\156\156H2O.xyz,,RDKit could not parse SMILES: [P]([C@@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(c1F)F)CCCC)(C(C)(C)C)(C(C)(C)C)C(C)(C)C.O
+data\raw\xyz\156\156HCOOH.xyz,,RDKit could not parse SMILES: [P]([C@@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(c1F)F)CCCC)(C(C)(C)C)(C(C)(C)C)C(C)(C)C.C(=O)O
+data\raw\xyz\157\157.xyz,CC[Al](CC)/C(=C/C(C)(C)C)P(CC)c1ccccc1,
+data\raw\xyz\157\157CH3OH.xyz,CC[Al](CC)/C(=C/C(C)(C)C)P(CC)c1ccccc1.CO,
+data\raw\xyz\157\157CO2.xyz,[CH]/C=C\C=[CH].[C][C]C=[C],
+data\raw\xyz\157\157H2.xyz,CC[AlH](CC)/C(=C/C(C)(C)C)[P@@H](CC)c1ccccc1,
+data\raw\xyz\157\157H2CO.xyz,[CH2]O[Al](CC)(CC)/C(=C/C(C)(C)C)P(CC)c1ccccc1,
+data\raw\xyz\157\157H2O.xyz,CC[Al](CC)/C(=C/C(C)(C)C)P(CC)c1ccccc1.O,
+data\raw\xyz\157\157HCOOH.xyz,CCP(/C(=C\C(C)(C)C)[Al](CC)(CC)O[CH]O)c1ccccc1,
+data\raw\xyz\16\16.xyz,Cc1cc(C)c(P(c2c(C)cc(C)cc2C)[C@@H]2[C@@H]3CC[C@@H](C3)[C@H]2B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(C)c1,
+data\raw\xyz\16\16CH3OH.xyz,CO.Cc1cc(C)c(P(c2c(C)cc(C)cc2C)[C@@H]2[C@@H]3CC[C@@H](C3)[C@H]2B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(C)c1,
+data\raw\xyz\16\16CO2.xyz,,RDKit could not parse SMILES: [P]1([C@H]2[C@H]([B](c3c(c(c(c(c3F)F)F)F)F)(c3c(c(c(c(c3F)F)F)F)F)OC1=O)[C@H]1CC[C@@H]2C1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\16\16H2.xyz,,RDKit could not parse SMILES: [PH]([C@H]1[C@H]([BH](c2c(c(c(c(c2F)F)F)F)F)c2c(c(c(c(c2F)F)F)F)F)[C@H]2CC[C@@H]1C2)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\16\16H2CO.xyz,,RDKit could not parse SMILES: [P]1([C@H]2[C@H]([B](c3c(c(c(c(c3F)F)F)F)F)(c3c(c(c(c(c3F)F)F)F)F)OC1)[C@H]1CC[C@@H]2C1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\16\16H2O.xyz,,RDKit could not parse SMILES: [PH]([C@H]1[C@H]([B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)O)[C@H]2CC[C@@H]1C2)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\16\16HCOOH.xyz,,RDKit could not parse SMILES: [PH]([C@H]1[C@H]([B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC=O)[C@H]2CC[C@@H]1C2)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\17\17.xyz,,RDKit could not parse SMILES: [C@H]12CCCC[C@@H]1[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)[P]2(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\17\17CH3OH.xyz,CO.Cc1cc(C)c(P(c2c(C)cc(C)cc2C)[C@H]2CCCC[C@@H]2B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(C)c1,
+data\raw\xyz\17\17CO2.xyz,,RDKit could not parse SMILES: [C@H]12CCCC[C@@H]1[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC(=O)[P]2(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\17\17H2.xyz,,RDKit could not parse SMILES: [C@@H]1(CCCC[C@@H]1[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\17\17H2CO.xyz,,RDKit could not parse SMILES: [C@@H]1(CCCC[C@@H]1[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH2])P(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\17\17H2O.xyz,,RDKit could not parse SMILES: [C@@H]1(CCCC[C@@H]1[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\17\17HCOOH.xyz,,RDKit could not parse SMILES: [C@@H]1(CCCC[C@@H]1[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\18\18.xyz,,RDKit could not parse SMILES: [C@@H]12[C@H](CCC1)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)[P]2(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\18\18CH3OH.xyz,CO.Cc1cc(C)c(P(c2c(C)cc(C)cc2C)[C@H]2CCC[C@@H]2B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(C)c1,
+data\raw\xyz\18\18CO2.xyz,,RDKit could not parse SMILES: [C@@H]12[C@H](CCC1)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC(=O)[P]2(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\18\18H2.xyz,,RDKit could not parse SMILES: [C@H]1([C@H](CCC1)[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\18\18H2CO.xyz,,RDKit could not parse SMILES: [C@@H]12[C@H](CCC1)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC[P]2(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\18\18H2O.xyz,,RDKit could not parse SMILES: [C@H]1([C@H](CCC1)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\18\18HCOOH.xyz,,RDKit could not parse SMILES: [C@H]1([C@H](CCC1)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\19\19.xyz,CC(C)(C)c1cc(C(C)(C)C)n(B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)n1,
+data\raw\xyz\19\19CH3OH.xyz,,RDKit could not parse SMILES: [B](N1N[C](C=C1C(C)(C)C)C(C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC
+data\raw\xyz\19\19CO2.xyz,,RDKit could not parse SMILES: [B]1(N2N([C](C=C2C(C)(C)C)C(C)(C)C)C(=O)O1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\19\19H2.xyz,,RDKit could not parse SMILES: [BH](N1N[C](C=C1C(C)(C)C)C(C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\19\19H2CO.xyz,,RDKit could not parse SMILES: [B]1(N2[N@@]([C](C=C2C(C)(C)C)C(C)(C)C)CO1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\19\19H2O.xyz,,RDKit could not parse SMILES: [B](N1N[C](C=C1C(C)(C)C)C(C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\19\19HCOOH.xyz,,RDKit could not parse SMILES: [B](N1N[C](C=C1C(C)(C)C)C(C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\2\2.xyz,,RDKit could not parse SMILES: [P]1(CC[B]1(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\2\2CH3OH.xyz,CO.Cc1cc(C)c(P(CCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\2\2CO2.xyz,,RDKit could not parse SMILES: [P]1(CC[B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC1=O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\2\2H2.xyz,,RDKit could not parse SMILES: [PH](CC[BH](c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\2\2H2CO.xyz,,RDKit could not parse SMILES: [P]1(CC[B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\2\2H2O.xyz,,RDKit could not parse SMILES: [PH](CC[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\2\2HCOOH.xyz,,RDKit could not parse SMILES: [PH](CC[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC=O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\20\20.xyz,,RDKit could not parse SMILES: C(C(=[B](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)[CH]C)P(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\20\20CH3OH.xyz,C/C=C(\CP(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C)B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.CO,
+data\raw\xyz\20\20CO2.xyz,,RDKit could not parse SMILES: C1/C(=C\C)/[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC(=O)[P]1(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\20\20H2.xyz,,RDKit could not parse SMILES: C(/C(=C\C)/[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\20\20H2CO.xyz,,RDKit could not parse SMILES: C1/C(=C\C)/[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC[P]1(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\20\20H2O.xyz,,RDKit could not parse SMILES: C(/C(=C\C)/[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\20\20HCOOH.xyz,,RDKit could not parse SMILES: C(/C(=C\C)/[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH]O)P(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\21\21.xyz,,RDKit could not parse SMILES: C1/C(=C\[Si](C)(C)C)/[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)[P]1(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\21\21CH3OH.xyz,CO.Cc1cc(C)c(P(C/C(=C\[Si](C)(C)C)B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\21\21CO2.xyz,,RDKit could not parse SMILES: C1/C(=C\[Si](C)(C)C)/[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC(=O)[P]1(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\21\21H2.xyz,,RDKit could not parse SMILES: C(/C(=C\[Si](C)(C)C)/[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\21\21H2CO.xyz,,RDKit could not parse SMILES: C1/C(=C\[Si](C)(C)C)/[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC[P]1(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\21\21H2O.xyz,,RDKit could not parse SMILES: C(/C(=C\[Si](C)(C)C)/[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\21\21HCOOH.xyz,,RDKit could not parse SMILES: C(/C(=C\[Si](C)(C)C)/[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\22\22.xyz,,RDKit could not parse SMILES: [B]1(CCC[P@@]1(CCCB(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)c1ccccc1)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\22\22CH3OH.xyz,CO.Fc1c(F)c(F)c(B(CCCP(CCCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2ccccc2)c2c(F)c(F)c(F)c(F)c2F)c(F)c1F,
+data\raw\xyz\22\22CO2.xyz,,RDKit could not parse SMILES: [B]1(CCC[P@@](CCCB(c2c(c(c(c(c2F)F)F)F)F)c2c(c(c(c(c2F)F)F)F)F)(c2ccccc2)C(=O)O1)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\22\22H2.xyz,,RDKit could not parse SMILES: [BH](CCC[P@@H](CCCB(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)c1ccccc1)(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\22\22H2CO.xyz,C=O.Fc1c(F)c(F)c(B(CCCP(CCCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2ccccc2)c2c(F)c(F)c(F)c(F)c2F)c(F)c1F,
+data\raw\xyz\22\22H2O.xyz,Fc1c(F)c(F)c(B(CCCP(CCCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2ccccc2)c2c(F)c(F)c(F)c(F)c2F)c(F)c1F.O,
+data\raw\xyz\22\22HCOOH.xyz,,RDKit could not parse SMILES: [B](CCC[P@@H](CCCB(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)c1ccccc1)(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC=O
+data\raw\xyz\23\23.xyz,,RDKit could not parse SMILES: [P@]1(CCC[B]1(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C(C)(C)C
+data\raw\xyz\23\23CH3OH.xyz,CC(C)(C)P(CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.CO,
+data\raw\xyz\23\23CO2.xyz,,RDKit could not parse SMILES: [P@]1(CCC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O)(CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C(C)(C)C
+data\raw\xyz\23\23H2.xyz,,RDKit could not parse SMILES: [P@H](CCC[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C(C)(C)C
+data\raw\xyz\23\23H2CO.xyz,,RDKit could not parse SMILES: [P@]1(CCC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1)(CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C(C)(C)C
+data\raw\xyz\23\23H2O.xyz,CC(C)(C)P(CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.O,
+data\raw\xyz\23\23HCOOH.xyz,,RDKit could not parse SMILES: [P@]1(CCC[B]1(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C(C)(C)C.C(=O)O
+data\raw\xyz\24\24.xyz,,RDKit could not parse SMILES: Fc1c(c(F)c(F)c(F)c1F)[B]1([N](CCC1)(C)c1ccccc1)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\24\24CH3OH.xyz,,RDKit could not parse SMILES: Fc1c(c(F)c(F)c(F)c1F)B(CCC[NH](C)c1ccccc1)c1c(F)c(F)c(F)c(F)c1F.[O]C
+data\raw\xyz\24\24CO2.xyz,CN(CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)c1ccccc1.O=C=O,
+data\raw\xyz\24\24H2.xyz,,RDKit could not parse SMILES: Fc1c(c(F)c(F)c(F)c1F)[BH](CCC[NH](C)c1ccccc1)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\24\24H2CO.xyz,,RDKit could not parse SMILES: Fc1c(c(F)c(F)c(F)c1F)[B]1(CCC[N](C)(c2ccccc2)CO1)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\24\24H2O.xyz,,RDKit could not parse SMILES: Fc1c(c(F)c(F)c(F)c1F)[B](CCC[NH](C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\24\24HCOOH.xyz,,RDKit could not parse SMILES: Fc1c(c(F)c(F)c(F)c1F)[B](CCC[NH](C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\25\25.xyz,,RDKit could not parse SMILES: Fc1c(c(F)c(F)c(F)c1F)[B]1([N](CCC1)(CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)c1ccccc1)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\25\25CH3OH.xyz,CO.Fc1c(F)c(F)c(B(CCCN(CCCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2ccccc2)c2c(F)c(F)c(F)c(F)c2F)c(F)c1F,
+data\raw\xyz\25\25CO2.xyz,,RDKit could not parse SMILES: Fc1c(c(F)c(F)c(F)c1F)[B]1(CCC[N](CCCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)(c2ccccc2)C(=O)O1)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\25\25H2.xyz,,RDKit could not parse SMILES: Fc1c(c(F)c(F)c(F)c1F)[BH](CCC[NH](CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)c1ccccc1)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\25\25H2CO.xyz,,RDKit could not parse SMILES: Fc1c(c(F)c(F)c(F)c1F)[B](CCCN(CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)O[CH2]
+data\raw\xyz\25\25H2O.xyz,,RDKit could not parse SMILES: Fc1c(c(F)c(F)c(F)c1F)B(CCC[NH](CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)c1ccccc1)c1c(F)c(F)c(F)c(F)c1F.[OH]
+data\raw\xyz\25\25HCOOH.xyz,,RDKit could not parse SMILES: Fc1c(c(F)c(F)c(F)c1F)[B](CCC[NH](CCCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\26\26.xyz,,RDKit could not parse SMILES: [P]1(CCC[B]1(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C
+data\raw\xyz\26\26CH3OH.xyz,CO.Cc1cc(C)c(P(CCCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\26\26CO2.xyz,,RDKit could not parse SMILES: [P]1(CCC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O)(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C
+data\raw\xyz\26\26H2.xyz,,RDKit could not parse SMILES: [PH](CCC[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C
+data\raw\xyz\26\26H2CO.xyz,,RDKit could not parse SMILES: [P]1(CCC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1)(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C
+data\raw\xyz\26\26H2O.xyz,,RDKit could not parse SMILES: [PH](CCC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C
+data\raw\xyz\26\26HCOOH.xyz,,RDKit could not parse SMILES: P(CCC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH]O)(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C
+data\raw\xyz\27\27.xyz,,RDKit could not parse SMILES: [P]1([C@@H](C[B]1(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C)(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C
+data\raw\xyz\27\27CH3OH.xyz,CO.Cc1cc(C)c(P(c2c(C)cc(C)cc2C)[C@H](C)CB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(C)c1,
+data\raw\xyz\27\27CO2.xyz,,RDKit could not parse SMILES: [P]1([C@@H](C[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O)C)(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C
+data\raw\xyz\27\27H2.xyz,,RDKit could not parse SMILES: [PH]([C@@H](C[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C)(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C
+data\raw\xyz\27\27H2CO.xyz,,RDKit could not parse SMILES: P([C@@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH2])C)(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C
+data\raw\xyz\27\27H2O.xyz,,RDKit could not parse SMILES: [PH]([C@@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)C)(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C
+data\raw\xyz\27\27HCOOH.xyz,,RDKit could not parse SMILES: [PH]([C@@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O)C)(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C
+data\raw\xyz\28\28.xyz,,RDKit could not parse SMILES: [P]1([C@H](C[B]1(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\28\28CH3OH.xyz,CO.Cc1cc(C)c(P(c2c(C)cc(C)cc2C)[C@H](CB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2ccccc2)c(C)c1,
+data\raw\xyz\28\28CO2.xyz,,RDKit could not parse SMILES: [P]1([C@H](C[B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC1=O)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\28\28H2.xyz,,RDKit could not parse SMILES: [PH]([C@H](C[BH](c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\28\28H2CO.xyz,,RDKit could not parse SMILES: [P]1([C@H](C[B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC1)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\28\28H2O.xyz,,RDKit could not parse SMILES: [PH]([C@H](C[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\28\28HCOOH.xyz,,RDKit could not parse SMILES: [PH]([C@H](C[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC=O)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\29\29.xyz,,RDKit could not parse SMILES: [P]1(C[C@H]([B]1(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)[Si](C)(C)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\29\29CH3OH.xyz,CO.Cc1cc(C)c(P(C[C@H](B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)[Si](C)(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\29\29CO2.xyz,,RDKit could not parse SMILES: [P]1(C[C@H]([B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC1=O)[Si](C)(C)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\29\29H2.xyz,,RDKit could not parse SMILES: [PH](C[C@H]([BH](c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)[Si](C)(C)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\29\29H2CO.xyz,,RDKit could not parse SMILES: [P]1(C[C@H]([B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC1)[Si](C)(C)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\29\29H2O.xyz,,RDKit could not parse SMILES: [PH](C[C@H]([B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O)[Si](C)(C)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\29\29HCOOH.xyz,,RDKit could not parse SMILES: [PH](C[C@H]([B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC=O)[Si](C)(C)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\3\3.xyz,CC1(C)CCCC(C)(C)N1Cc1ccccc1B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F,
+data\raw\xyz\3\3CH3OH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(CCCC1(C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC
+data\raw\xyz\3\3CO2.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2(C(CCCC2(C)C)(C)C)C(=O)O1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\3\3H2.xyz,,RDKit could not parse SMILES: [BH](c1ccccc1C[NH]1C(CCCC1(C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\3\3H2CO.xyz,,RDKit could not parse SMILES: [B](c1ccccc1CN1C(CCCC1(C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH2]
+data\raw\xyz\3\3H2O.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(CCCC1(C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\3\3HCOOH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(CCCC1(C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\3\3vdw2.xyz,CC1(C)CCCC(C)(C)N1Cc1ccccc1B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.[H][H],
+data\raw\xyz\30\30.xyz,,RDKit could not parse SMILES: [P]1(C[C@H](C[B]1(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\30\30CH3OH.xyz,CO.Cc1cc(C)c(P(C[C@@H](C)CB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\30\30CO2.xyz,,RDKit could not parse SMILES: [P]1(C[C@H](C[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\30\30H2.xyz,,RDKit could not parse SMILES: [PH](C[C@H](C[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\30\30H2CO.xyz,,RDKit could not parse SMILES: [P]1(C[C@H](C[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\30\30H2O.xyz,,RDKit could not parse SMILES: [PH](C[C@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\30\30HCOOH.xyz,,RDKit could not parse SMILES: P(C[C@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH]O)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\31\31.xyz,,RDKit could not parse SMILES: [P]1(CCCC[B]1(c1c(F)c(F)c(F)c(F)c1F)c1c(c(c(c(c1F)F)F)F)F)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\31\31CH3OH.xyz,CO.Cc1cc(C)c(P(CCCCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\31\31CO2.xyz,,RDKit could not parse SMILES: [P]1(CCCC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(c(c(c(c2F)F)F)F)F)OC1=O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\31\31H2.xyz,,RDKit could not parse SMILES: [PH](CCCC[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(c(c(c(c1F)F)F)F)F)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\31\31H2CO.xyz,,RDKit could not parse SMILES: [P]1(CCCC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(c(c(c(c2F)F)F)F)F)OC1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\31\31H2O.xyz,Cc1cc(C)c(P(CCCCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(C)cc(C)cc2C)c(C)c1.O,
+data\raw\xyz\31\31HCOOH.xyz,,RDKit could not parse SMILES: [PH](CCCC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(c(c(c(c1F)F)F)F)F)OC=O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\32\32.xyz,,RDKit could not parse SMILES: [P]1(CC[C@H](C[B]1(c1c(F)c(F)c(F)c(F)c1F)c1c(c(c(c(c1F)F)F)F)F)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\32\32CH3OH.xyz,CO.Cc1cc(C)c(P(CC[C@@H](C)CB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\32\32CO2.xyz,,RDKit could not parse SMILES: [P]1(CC[C@H](C[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(c(c(c(c2F)F)F)F)F)OC1=O)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\32\32H2.xyz,,RDKit could not parse SMILES: [PH](CC[C@H](C[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(c(c(c(c1F)F)F)F)F)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\32\32H2CO.xyz,,RDKit could not parse SMILES: [P]1(CC[C@H](C[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(c(c(c(c2F)F)F)F)F)OC1)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\32\32H2O.xyz,Cc1cc(C)c(P(CC[C@@H](C)CB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(C)cc(C)cc2C)c(C)c1.O,
+data\raw\xyz\32\32HCOOH.xyz,,RDKit could not parse SMILES: P(CC[C@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(c(c(c(c1F)F)F)F)F)O[CH]O)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\33\33.xyz,CC(C)c1cccc2c1N(Cc1ccccc1B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)[C@H](c1ccccc1)C2(C)C,
+data\raw\xyz\33\33CH3OH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1[C@@H](C(c2cccc(c12)C(C)C)(C)C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC
+data\raw\xyz\33\33CO2.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2([C@@H](C(c3cccc(c23)C(C)C)(C)C)c2ccccc2)C(=O)O1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\33\33H2.xyz,,RDKit could not parse SMILES: [BH](c1ccccc1C[NH]1[C@@H](C(c2cccc(c12)C(C)C)(C)C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\33\33H2CO.xyz,,RDKit could not parse SMILES: [B](c1ccccc1CN1[C@@H](C(c2cccc(c12)C(C)C)(C)C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH2]
+data\raw\xyz\33\33H2O.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1[C@@H](C(c2cccc(c12)C(C)C)(C)C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\33\33HCOOH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1[C@@H](C(c2cccc(c12)C(C)C)(C)C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\34\34.xyz,Cc1ccc2c(c1)N(Cc1ccccc1B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C(C)(C)C[C@H]2C,
+data\raw\xyz\34\34CH3OH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(C[C@H](c2ccc(cc12)C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC
+data\raw\xyz\34\34CO2.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2(C(C[C@H](c3ccc(cc23)C)C)(C)C)C(=O)O1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\34\34H2.xyz,,RDKit could not parse SMILES: [BH](c1ccccc1C[NH]1C(C[C@H](c2ccc(cc12)C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\34\34H2CO.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2(C(C[C@H](c3ccc(cc23)C)C)(C)C)CO1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\34\34H2O.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(C[C@H](c2ccc(cc12)C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\34\34HCOOH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(C[C@H](c2ccc(cc12)C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\35\35.xyz,CC1(C)COCC(C)(C)N1Cc1ccccc1B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F,
+data\raw\xyz\35\35CH3OH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(COCC1(C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC
+data\raw\xyz\35\35CO2.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2(C(COCC2(C)C)(C)C)C(=O)O1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\35\35H2.xyz,,RDKit could not parse SMILES: [BH](c1ccccc1C[NH]1C(COCC1(C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\35\35H2CO.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2(C(COCC2(C)C)(C)C)CO1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\35\35H2O.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(COCC1(C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\35\35HCOOH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(COCC1(C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\36\36.xyz,CC1(C)CCCC(C)(C)N1Cc1ccccc1B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F,
+data\raw\xyz\36\36CH3OH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(CCCC1(C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC
+data\raw\xyz\36\36CO2.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2(C(CCCC2(C)C)(C)C)C(=O)O1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\36\36H2.xyz,,RDKit could not parse SMILES: [BH](c1ccccc1C[NH]1C(CCCC1(C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\36\36H2CO.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2(C(CCCC2(C)C)(C)C)CO1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\36\36H2O.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(CCCC1(C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\36\36HCOOH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(CCCC1(C)C)(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\37\37.xyz,CC1(C)c2ccccc2N(Cc2ccccc2B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)[C@@H]1c1ccccc1,
+data\raw\xyz\37\37CH3OH.xyz,,RDKit could not parse SMILES: B(c1ccccc1C[NH]1[C@@H](C(c2ccccc12)(C)C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.C[O]
+data\raw\xyz\37\37CO2.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2([C@@H](C(c3ccccc23)(C)C)c2ccccc2)C(=O)O1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\37\37H2.xyz,,RDKit could not parse SMILES: [BH](c1ccccc1C[NH]1[C@@H](C(c2ccccc12)(C)C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\37\37H2CO.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2([C@@H](C(c3ccccc23)(C)C)c2ccccc2)CO1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\37\37H2O.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1[C@@H](C(c2ccccc12)(C)C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\37\37HCOOH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1[C@@H](C(c2ccccc12)(C)C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\38\38.xyz,CC(C)c1cccc2c1N(Cc1ccccc1B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C(C)(C)C[C@@H]2C,
+data\raw\xyz\38\38CH3OH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(C)(C)C[C@@H](c2cccc(c12)C(C)C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC
+data\raw\xyz\38\38CO2.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2(C(C)(C)C[C@@H](c3cccc(c23)C(C)C)C)C(=O)O1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\38\38H2.xyz,,RDKit could not parse SMILES: [BH](c1ccccc1C[NH]1C(C)(C)C[C@@H](c2cccc(c12)C(C)C)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\38\38H2CO.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2(C(C)(C)C[C@@H](c3cccc(c23)C(C)C)C)CO1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\38\38H2O.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(C)(C)C[C@@H](c2cccc(c12)C(C)C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\38\38HCOOH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1C(C)(C)C[C@@H](c2cccc(c12)C(C)C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\39\39.xyz,CC(C)[C@@H]1CC[C@]2(C)c3ccccc3N(Cc3ccccc3B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)[C@@]2(c2ccccc2)C1,
+data\raw\xyz\39\39CH3OH.xyz,CC(C)[C@@H]1CC[C@]2(C)c3ccccc3N(Cc3ccccc3B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)[C@@]2(c2ccccc2)C1.CO,
+data\raw\xyz\39\39CO2.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2([C@@]3([C@](c4ccccc24)(C)CC[C@H](C3)C(C)C)c2ccccc2)C(=O)O1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\39\39H2.xyz,,RDKit could not parse SMILES: [BH](c1ccccc1C[NH]1[C@@]2([C@](c3ccccc13)(C)CC[C@H](C2)C(C)C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\39\39H2CO.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2C[N]2([C@@]3([C@](c4ccccc24)(C)CC[C@H](C3)C(C)C)c2ccccc2)CO1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\39\39H2O.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1[C@@]2([C@](c3ccccc13)(C)CC[C@H](C2)C(C)C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\39\39HCOOH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1C[NH]1[C@@]2([C@](c3ccccc13)(C)CC[C@H](C2)C(C)C)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\4\4.xyz,Fc1c(F)c(F)c(B(c2c(F)c(F)c(F)c(F)c2F)P(C2CCCCC2)C2CCCCC2)c(F)c1F,
+data\raw\xyz\4\4CH3OH.xyz,CO.Fc1c(F)c(F)c(B(c2c(F)c(F)c(F)c(F)c2F)P(C2CCCCC2)C2CCCCC2)c(F)c1F,
+data\raw\xyz\4\4CO2.xyz,,RDKit could not parse SMILES: [P]1([B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O)(C1CCCCC1)C1CCCCC1
+data\raw\xyz\4\4H2.xyz,,RDKit could not parse SMILES: [PH]([BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(C1CCCCC1)C1CCCCC1
+data\raw\xyz\4\4H2CO.xyz,C=O.Fc1c(F)c(F)c(B(c2c(F)c(F)c(F)c(F)c2F)P(C2CCCCC2)C2CCCCC2)c(F)c1F,
+data\raw\xyz\4\4H2O.xyz,,RDKit could not parse SMILES: [PH]([B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)(C1CCCCC1)C1CCCCC1
+data\raw\xyz\4\4HCOOH.xyz,,RDKit could not parse SMILES: [PH]([B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O)(C1CCCCC1)C1CCCCC1
+data\raw\xyz\4\4vdw2.xyz,Fc1c(F)c(F)c(B(c2c(F)c(F)c(F)c(F)c2F)P(C2CCCCC2)C2CCCCC2)c(F)c1F.[H][H],
+data\raw\xyz\40\40.xyz,CC(C)N(C)c1ccc2ccccc2c1-c1c(B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)ccc2ccccc12,
+data\raw\xyz\40\40CH3OH.xyz,,RDKit could not parse SMILES: [B](c1ccc2ccccc2c1c1c(ccc2ccccc12)[NH](C)C(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC
+data\raw\xyz\40\40CO2.xyz,,RDKit could not parse SMILES: [B]1(c2ccc3ccccc3c2-c2c(ccc3ccccc23)[N](C)(C(C)C)C(=O)O1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\40\40H2.xyz,,RDKit could not parse SMILES: [BH](c1ccc2ccccc2c1c1c(ccc2ccccc12)[NH](C)C(C)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\40\40H2CO.xyz,,RDKit could not parse SMILES: [B]1(c2ccc3ccccc3c2-c2c(ccc3ccccc23)[N](C)(C(C)C)CO1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\40\40H2O.xyz,,RDKit could not parse SMILES: [B](c1ccc2ccccc2c1c1c(ccc2ccccc12)[NH](C)C(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\40\40HCOOH.xyz,,RDKit could not parse SMILES: [B](c1ccc2ccccc2c1c1c(ccc2ccccc12)N(C)C(C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH]O
+data\raw\xyz\41\41.xyz,CN1c2ccccc2P1(F)(c1ccccc1)c1ccccc1,
+data\raw\xyz\41\41CH3OH.xyz,CNc1ccccc1P(F)(OC)(c1ccccc1)c1ccccc1,
+data\raw\xyz\41\41CO2.xyz,CN1C(=O)OP(F)(c2ccccc2)(c2ccccc2)c2ccccc21,
+data\raw\xyz\41\41H2.xyz,CNc1ccccc1[PH](F)(c1ccccc1)c1ccccc1,
+data\raw\xyz\41\41H2CO.xyz,CN1COP(F)(c2ccccc2)(c2ccccc2)c2ccccc21,
+data\raw\xyz\41\41H2O.xyz,CN1c2ccccc2P1(F)(c1ccccc1)c1ccccc1.O,
+data\raw\xyz\41\41HCOOH.xyz,CNc1ccccc1P(F)(OC=O)(c1ccccc1)c1ccccc1,
+data\raw\xyz\42\42.xyz,CC(C)C[Al](CC(C)C)/C(=C\N1CCN(C)CC1)[Si](C)(C)C,
+data\raw\xyz\42\42CH3OH.xyz,CC(C)C[Al](CC(C)C)/C(=C\N1CCN(C)CC1)[Si](C)(C)C.CO,
+data\raw\xyz\42\42CO2.xyz,,RDKit could not parse SMILES: C1(=C[N]2(CCN(C)CC2)C(=O)O[Al]1(CC(C)C)CC(C)C)[Si](C)(C)C
+data\raw\xyz\42\42H2.xyz,,RDKit could not parse SMILES: C(=C\[NH]1CCN(C)CC1)(/[Si](C)(C)C)\[AlH](CC(C)C)CC(C)C
+data\raw\xyz\42\42H2CO.xyz,,RDKit could not parse SMILES: C\1(=C\N2CC[N@](C)(CC2)CO[Al]1(CC(C)C)CC(C)C)/[Si](C)(C)C
+data\raw\xyz\42\42H2O.xyz,CC(C)C[Al](CC(C)C)/C(=C\N1CCN(C)CC1)[Si](C)(C)C.O,
+data\raw\xyz\42\42HCOOH.xyz,CC(C)C[Al](CC(C)C)/C(=C\N1CCN(C)CC1)[Si](C)(C)C.O=CO,
+data\raw\xyz\43\43.xyz,,RDKit could not parse SMILES: C1=CC(=[N]=C([CH]1)C(C)(C)C)OB(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\43\43CH3OH.xyz,,RDKit could not parse SMILES: C1=C[C](NC(=C1)C(C)(C)C)O[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC
+data\raw\xyz\43\43CO2.xyz,,RDKit could not parse SMILES: C1=C[C]2N(C(=C1)C(C)(C)C)C(=O)O[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O2
+data\raw\xyz\43\43H2.xyz,,RDKit could not parse SMILES: C1=C[C](NC(=C1)C(C)(C)C)O[BH](c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\43\43H2CO.xyz,,RDKit could not parse SMILES: C1=CC(=[N]=C([CH]1)C(C)(C)C)O[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O[CH2]
+data\raw\xyz\43\43H2O.xyz,,RDKit could not parse SMILES: C1=C[C](NC(=C1)C(C)(C)C)O[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O
+data\raw\xyz\43\43HCOOH.xyz,,RDKit could not parse SMILES: C1=CC(=[N]=C([CH]1)C(C)(C)C)OB(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F.C(=O)O
+data\raw\xyz\44\44.xyz,c1ccc(P(c2ccccc2)c2ccccc2B2Oc3ccccc3O2)cc1,
+data\raw\xyz\44\44CH3OH.xyz,CO.c1ccc(P(c2ccccc2)c2ccccc2B2Oc3ccccc3O2)cc1,
+data\raw\xyz\44\44CO2.xyz,,RDKit could not parse SMILES: O1c2ccccc2O[B]21c1ccccc1[P](c1ccccc1)(c1ccccc1)C(=O)O2
+data\raw\xyz\44\44H2.xyz,,RDKit could not parse SMILES: O1c2ccccc2O[BH]1c1ccccc1[PH](c1ccccc1)c1ccccc1
+data\raw\xyz\44\44H2CO.xyz,,RDKit could not parse SMILES: O1c2ccccc2O[B]21c1ccccc1[P](c1ccccc1)(c1ccccc1)CO2
+data\raw\xyz\44\44H2O.xyz,O.c1ccc(P(c2ccccc2)c2ccccc2B2Oc3ccccc3O2)cc1,
+data\raw\xyz\44\44HCOOH.xyz,,RDKit could not parse SMILES: O1c2ccccc2O[B]1(c1ccccc1[PH](c1ccccc1)c1ccccc1)OC=O
+data\raw\xyz\45\45.xyz,,RDKit could not parse SMILES: [P]1([B](C(=C1c1ccc(cc1)C)c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(c1ccccc1)c1ccccc1
+data\raw\xyz\45\45CH3OH.xyz,CO.Cc1ccc(/C(=C(/B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)P(c2ccccc2)c2ccccc2)cc1,
+data\raw\xyz\5\5.xyz,CC(C)(C)P(B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C(C)(C)C,
+data\raw\xyz\5\5CH3OH.xyz,CC(C)(C)P(B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)C(C)(C)C.CO,
+data\raw\xyz\5\5CO2.xyz,,RDKit could not parse SMILES: [P]1([B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\5\5H2.xyz,,RDKit could not parse SMILES: [PH]([BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\5\5H2CO.xyz,,RDKit could not parse SMILES: P([B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH2])(C(C)(C)C)C(C)(C)C
+data\raw\xyz\5\5H2O.xyz,,RDKit could not parse SMILES: [PH]([B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\5\5HCOOH.xyz,,RDKit could not parse SMILES: [PH]([B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O)(C(C)(C)C)C(C)(C)C
+data\raw\xyz\51\51.xyz,Cc1cc(C)c(P(CCBc2c(C(F)(F)F)cc(C(F)(F)F)cc2C(F)(F)F)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\51\51CH3OH.xyz,CO.Cc1cc(C)c(P(CCBc2c(C(F)(F)F)cc(C(F)(F)F)cc2C(F)(F)F)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\51\51CO2.xyz,,RDKit could not parse SMILES: C1C[B@H](c2c(cc(cc2C(F)(F)F)C(F)(F)F)C(F)(F)F)OC(=O)[P]1(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\51\51H2.xyz,,RDKit could not parse SMILES: C(C[BH2]c1c(cc(cc1C(F)(F)F)C(F)(F)F)C(F)(F)F)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\51\51H2CO.xyz,,RDKit could not parse SMILES: C1C[B@H](c2c(cc(cc2C(F)(F)F)C(F)(F)F)C(F)(F)F)OC[P]1(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\51\51H2O.xyz,Cc1cc(C)c(P(CCBc2c(C(F)(F)F)cc(C(F)(F)F)cc2C(F)(F)F)c2c(C)cc(C)cc2C)c(C)c1.O,
+data\raw\xyz\51\51HCOOH.xyz,,RDKit could not parse SMILES: C(C[B@H](c1c(cc(cc1C(F)(F)F)C(F)(F)F)C(F)(F)F)OC=O)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\52\52.xyz,,RDKit could not parse SMILES: C1CC[B]([N@]21[C@H](CCC[C@@H]2C)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\52\52CH3OH.xyz,,RDKit could not parse SMILES: C(CC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC)[NH]1[C@H](CCC[C@@H]1C)C
+data\raw\xyz\52\52CO2.xyz,,RDKit could not parse SMILES: C1CC[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC(=O)[N]21[C@H](CCC[C@@H]2C)C
+data\raw\xyz\52\52H2.xyz,,RDKit could not parse SMILES: C(CC[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)[NH]1[C@H](CCC[C@@H]1C)C
+data\raw\xyz\52\52H2CO.xyz,,RDKit could not parse SMILES: C(CC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH2])N1[C@H](CCC[C@@H]1C)C
+data\raw\xyz\52\52H2O.xyz,,RDKit could not parse SMILES: C(CC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)[NH]1[C@H](CCC[C@@H]1C)C
+data\raw\xyz\52\52HCOOH.xyz,,RDKit could not parse SMILES: C(CC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)[N]1([C@H](CCC[C@@H]1C)C)C=O
+data\raw\xyz\53\53.xyz,,RDKit could not parse SMILES: N1([CH][C@@H]([BH](c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)C)C(CCCC1(C)C)(C)C
+data\raw\xyz\53\53CH3OH.xyz,,RDKit could not parse SMILES: N1([CH][C@@H]([BH](c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)C)C(CCCC1(C)C)(C)C.OC
+data\raw\xyz\53\53CO2.xyz,,RDKit could not parse SMILES: [N]1(/C=C/C)(C(CCCC1(C)C)(C)C)C(=O)O[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\53\53H2.xyz,,RDKit could not parse SMILES: [NH]1(C[C@@H]([BH](c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)C)C(CCCC1(C)C)(C)C
+data\raw\xyz\53\53H2CO.xyz,,RDKit could not parse SMILES: N1(/C=C/C)C(CCCC1(C)C)(C)C.[BH](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH2]
+data\raw\xyz\53\53H2O.xyz,,RDKit could not parse SMILES: [NH]1(/C=C/C)C(CCCC1(C)C)(C)C.[BH](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\53\53HCOOH.xyz,,RDKit could not parse SMILES: N1([CH][C@@H]([BH](c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)C)C(CCCC1(C)C)(C)C.C(=O)O
+data\raw\xyz\54\54.xyz,Cc1cc(C)c(P(CCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)CCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(C)c1,
+data\raw\xyz\54\54CH3OH.xyz,CO.Cc1cc(C)c(P(CCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)CCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(C)c1,
+data\raw\xyz\54\54CO2.xyz,,RDKit could not parse SMILES: C1C[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)O[C]2[P@@]1(CC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O2)c1c(cc(cc1C)C)C
+data\raw\xyz\54\54H2.xyz,,RDKit could not parse SMILES: C(CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)[P@H](CC[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)c1c(cc(cc1C)C)C
+data\raw\xyz\54\54H2CO.xyz,,RDKit could not parse SMILES: C1C[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC[P@@]1(CCB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)c1c(cc(cc1C)C)C
+data\raw\xyz\54\54H2O.xyz,Cc1cc(C)c(P(CCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)CCB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(C)c1.O,
+data\raw\xyz\54\54HCOOH.xyz,,RDKit could not parse SMILES: C(CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)[P@H](CC[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O)c1c(cc(cc1C)C)C
+data\raw\xyz\55\55.xyz,CC1(C)CCCC(C)(C)N1Cc1ccccc1B1[C@H]2CCC[C@@H]1CCC2,
+data\raw\xyz\55\55CH3OH.xyz,CC1(C)CCCC(C)(C)N1Cc1ccccc1B1[C@H]2CCC[C@@H]1CCC2.CO,
+data\raw\xyz\55\55CO2.xyz,,RDKit could not parse SMILES: c12ccccc1C[N]1(C(CCCC1(C)C)(C)C)C(=O)O[B@]12[C@@H]2CCC[C@H]1CCC2
+data\raw\xyz\55\55H2.xyz,,RDKit could not parse SMILES: c1(ccccc1C[NH]1C(CCCC1(C)C)(C)C)[B@H]1[C@@H]2CCC[C@H]1CCC2
+data\raw\xyz\55\55H2CO.xyz,,RDKit could not parse SMILES: c12ccccc1C[N@]1(C(CCCC1(C)C)(C)C)CO[B@]12[C@@H]2CCC[C@H]1CCC2
+data\raw\xyz\55\55H2O.xyz,,RDKit could not parse SMILES: c1(ccccc1C[NH]1C(CCCC1(C)C)(C)C)[B@]1([C@@H]2CCC[C@H]1CCC2)O
+data\raw\xyz\55\55HCOOH.xyz,,RDKit could not parse SMILES: c1(ccccc1C[NH]1C(CCCC1(C)C)(C)C)[B@]1([C@@H]2CCC[C@H]1CCC2)OC=O
+data\raw\xyz\56\56.xyz,C[C@@H]1B2C3=C([C@@H]4C[C@H]5C[C@@H](C4)[C@H](C)N3[C@@H]5C)[C@H]3C[C@@H]1C[C@H](C3)[C@H]2C,
+data\raw\xyz\56\56CH3OH.xyz,,RDKit could not parse SMILES: C[C@H]1[B@]2([C@@H](C)[C@H]3C[C@@H]1C[C@H](C3)C1=C2[NH]2[C@H]([C@H]3C[C@@H]([C@H]2C)C[C@@H]1C3)C)OC
+data\raw\xyz\56\56CO2.xyz,,RDKit could not parse SMILES: C[C@H]1[B@@]23[C@@H](C)[C@H]4C[C@@H]1C[C@H](C4)C1=C2[N]2([C@H]([C@H]4C[C@@H]([C@H]2C)C[C@@H]1C4)C)C(=O)O3
+data\raw\xyz\56\56H2.xyz,,RDKit could not parse SMILES: C[C@H]1[B@H]2[C@@H](C)[C@H]3C[C@@H]1C[C@H](C3)C1=C2[NH]2[C@H]([C@H]3C[C@@H]([C@H]2C)C[C@@H]1C3)C
+data\raw\xyz\56\56H2CO.xyz,,RDKit could not parse SMILES: C[C@H]1[B@@]23[C@@H](C)[C@H]4C[C@@H]1C[C@H](C4)[C]1[C]2[N@@]2([C@H]([C@H]4C[C@@H]([C@H]2C)C[C@@H]1C4)C)CO3
+data\raw\xyz\56\56H2O.xyz,,RDKit could not parse SMILES: C[C@H]1[B@]2([C@@H](C)[C@H]3C[C@@H]1C[C@H](C3)C1=C2[NH]2[C@H]([C@H]3C[C@@H]([C@H]2C)C[C@@H]1C3)C)O
+data\raw\xyz\56\56HCOOH.xyz,,RDKit could not parse SMILES: C[C@H]1[B@]2([C@@H](C)[C@H]3C[C@@H]1C[C@H](C3)C1=C2[NH]2[C@H]([C@H]3C[C@@H]([C@H]2C)C[C@@H]1C3)C)OC=O
+data\raw\xyz\57\57.xyz,FC1(F)B2C(F)(F)[C@]3(F)C(F)(F)[C@@]1(F)C(F)(F)[C@@](F)(C3(F)F)[C@]2(F)c1cccc([C@@H]2[C@@H]3C[C@H]4C[C@@H](C3)C[N@]2C4)c1,
+data\raw\xyz\57\57CH3OH.xyz,,RDKit could not parse SMILES: [C@@H]12C[C@@H]3C[N@@H](C[C@H](C1)C3)[C@@H]2c1cccc([C@]2([C@@]3(C([C@@]4(C([B@]2(C([C@](C3(F)F)(C4(F)F)F)(F)F)OC)(F)F)F)(F)F)F)F)c1
+data\raw\xyz\57\57CO2.xyz,,RDKit could not parse SMILES: [C@@H]12C[C@@H]3C[N@@](C[C@H](C1)C3)[C@@H]2c1cccc([C@]2([C@@]3(C([C@@]4(C([B@]2(C([C@](C3(F)F)(C4(F)F)F)(F)F)O[C][O])(F)F)F)(F)F)F)F)c1
+data\raw\xyz\57\57H2.xyz,,RDKit could not parse SMILES: [C@@H]12C[C@@H]3C[N@@H](C[C@H](C1)C3)[C@@H]2c1cccc([C@]2([C@@]3(C([C@@]4(C([B@H]2C([C@](C3(F)F)(C4(F)F)F)(F)F)(F)F)F)(F)F)F)F)c1
+data\raw\xyz\57\57H2CO.xyz,,RDKit could not parse SMILES: [C@@H]12C[C@@H]3C[N@@](C[C@H](C1)C3)[C@@H]2c1cccc([C@]2([C@@]3(C([C@@]4(C([B@]2(C([C@](C3(F)F)(C4(F)F)F)(F)F)O[CH2])(F)F)F)(F)F)F)F)c1
+data\raw\xyz\57\57H2O.xyz,FC1(F)B2C(F)(F)[C@]3(F)C(F)(F)[C@@]1(F)C(F)(F)[C@@](F)(C3(F)F)[C@]2(F)c1cccc([C@@H]2[C@@H]3C[C@H]4C[C@@H](C3)C[N@]2C4)c1.O,
+data\raw\xyz\57\57HCOOH.xyz,FC1(F)B2C(F)(F)[C@]3(F)C(F)(F)[C@@]1(F)C(F)(F)[C@@](F)(C3(F)F)[C@]2(F)c1cccc([C@@H]2[C@@H]3C[C@H]4C[C@@H](C3)C[N@]2C4)c1.O=CO,
+data\raw\xyz\58\58.xyz,,RDKit could not parse SMILES: [C@@H]1(CC[C@@H]([P]1=[B](C(F)(F)F)C(F)(F)F)C)C
+data\raw\xyz\58\58CH3OH.xyz,CO.C[C@H]1CC[C@H](C)P1B(C(F)(F)F)C(F)(F)F,
+data\raw\xyz\58\58CO2.xyz,,RDKit could not parse SMILES: [C@@H]1(CC[C@@H]([P@@]21[B](C(F)(F)F)(C(F)(F)F)OC2=O)C)C
+data\raw\xyz\58\58H2.xyz,,RDKit could not parse SMILES: [C@@H]1(CC[C@@H]([P@@H]1[BH](C(F)(F)F)C(F)(F)F)C)C
+data\raw\xyz\58\58H2CO.xyz,,RDKit could not parse SMILES: [C@@H]1(CC[C@@H](P1[B](C(F)(F)F)(C(F)(F)F)O[CH2])C)C
+data\raw\xyz\58\58H2O.xyz,,RDKit could not parse SMILES: [C@@H]1(CC[C@@H]([P@@H]1[B](C(F)(F)F)(C(F)(F)F)O)C)C
+data\raw\xyz\58\58HCOOH.xyz,,RDKit could not parse SMILES: [C@@H]1(CC[C@@H]([P@@H]1[B](C(F)(F)F)(C(F)(F)F)OC=O)C)C
+data\raw\xyz\59\59.xyz,Cc1cccc(C)c1B(c1c(C)cccc1C)[C@H]1CCCCN1,
+data\raw\xyz\59\59CH3OH.xyz,CO.Cc1cccc(C)c1B(c1c(C)cccc1C)[C@H]1CCCCN1,
+data\raw\xyz\59\59CO2.xyz,,RDKit could not parse SMILES: [C@H]12CCCC[NH]1C(=O)O[B]2(c1c(cccc1C)C)c1c(cccc1C)C
+data\raw\xyz\59\59H2.xyz,,RDKit could not parse SMILES: [C@@H]1(CCCC[NH2]1)[BH](c1c(cccc1C)C)c1c(cccc1C)C
+data\raw\xyz\59\59H2CO.xyz,,RDKit could not parse SMILES: [C@H]12CCCC[N@@H]1CO[B]2(c1c(cccc1C)C)c1c(cccc1C)C
+data\raw\xyz\59\59H2O.xyz,,RDKit could not parse SMILES: [C@@H]1(CCCC[NH2]1)[B](c1c(cccc1C)C)(c1c(cccc1C)C)O
+data\raw\xyz\59\59HCOOH.xyz,,RDKit could not parse SMILES: [C@@H]1(CCCC[NH2]1)[B](c1c(cccc1C)C)(c1c(cccc1C)C)OC=O
+data\raw\xyz\6\6.xyz,,OpenBabel produced no output
+data\raw\xyz\6\6CH3OH.xyz,CO.Cc1cc(C)c(P(/C(=C\B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)[Si](C)(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\6\6CO2.xyz,,RDKit could not parse SMILES: C1=C([Si](C)(C)C)[P](c2c(cc(cc2C)C)C)(c2c(cc(cc2C)C)C)C(=O)O[B]1(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\6\6H2.xyz,,RDKit could not parse SMILES: C(=C(\[Si](C)(C)C)/[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)/[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\6\6H2CO.xyz,,RDKit could not parse SMILES: C1=C([Si](C)(C)C)[P](c2c(cc(cc2C)C)C)(c2c(cc(cc2C)C)C)CO[B]1(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\6\6H2O.xyz,,RDKit could not parse SMILES: C(=C(\[Si](C)(C)C)/[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)/[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\6\6HCOOH.xyz,,RDKit could not parse SMILES: C(=C(\[Si](C)(C)C)/[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)/[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\60\60.xyz,CB1N2C(=CN3CCC(C)(C)N=C32)CCC1(C)C,
+data\raw\xyz\60\60CH3OH.xyz,,RDKit could not parse SMILES: [C]12NC(CCN1C=C1N2[B@](C(CC1)(C)C)(C)OC)(C)C
+data\raw\xyz\60\60CO2.xyz,,RDKit could not parse SMILES: [C]12N3C(CCN1C=C1N2[B@](C(CC1)(C)C)(C)OC3=O)(C)C
+data\raw\xyz\60\60H2.xyz,,RDKit could not parse SMILES: [C]12NC(CCN1C=C1N2[B@H](C(CC1)(C)C)C)(C)C
+data\raw\xyz\60\60H2CO.xyz,,RDKit could not parse SMILES: [C]12[N@@]3C(CCN1C=C1N2[B@](C(CC1)(C)C)(C)OC3)(C)C
+data\raw\xyz\60\60H2O.xyz,,RDKit could not parse SMILES: [C]12NC(CCN1C=C1N2[B@](C(CC1)(C)C)(C)O)(C)C
+data\raw\xyz\60\60HCOOH.xyz,,RDKit could not parse SMILES: [C]12NC(CCN1C=C1N2[B@](C(CC1)(C)C)(C)OC=O)(C)C
+data\raw\xyz\61\61.xyz,CC1(C)CCN2C=C3CC[C@]45CCC[C@H](CCC4)B5N3C2=N1,
+data\raw\xyz\61\61CH3OH.xyz,,RDKit could not parse SMILES: C1=C2N([C]3NC(CCN13)(C)C)[B@]1([C@@]3(CCC[C@H]1CCC3)CC2)OC
+data\raw\xyz\61\61CO2.xyz,,RDKit could not parse SMILES: C1=C2N3[C]4N(C(CCN14)(C)C)C(=O)O[B@]13[C@@]3(CCC[C@H]1CCC3)CC2
+data\raw\xyz\61\61H2.xyz,,RDKit could not parse SMILES: C1=C2N([C]3NC(CCN13)(C)C)[B@H]1[C@@]3(CCC[C@H]1CCC3)CC2
+data\raw\xyz\61\61H2CO.xyz,,RDKit could not parse SMILES: C1=C2N3[C]4[N@@](C(CCN14)(C)C)CO[B@]13[C@@]3(CCC[C@H]1CCC3)CC2
+data\raw\xyz\61\61H2O.xyz,,RDKit could not parse SMILES: C1=C2N([C]3NC(CCN13)(C)C)[B@]1([C@@]3(CCC[C@H]1CCC3)CC2)O
+data\raw\xyz\61\61HCOOH.xyz,,RDKit could not parse SMILES: C1=C2N([C]3NC(CCN13)(C)C)[B@]1([C@@]3(CCC[C@H]1CCC3)CC2)OC=O
+data\raw\xyz\62\62.xyz,C[C@@H]1B(c2c(F)c(F)c(F)c(F)c2F)CCP1c1ccccc1,
+data\raw\xyz\62\62CH3OH.xyz,CO.C[C@@H]1B(c2c(F)c(F)c(F)c(F)c2F)CCP1c1ccccc1,
+data\raw\xyz\62\62CO2.xyz,,RDKit could not parse SMILES: [C@@H]1([P@]2(CC[B@]1(c1c(c(c(c(c1F)F)F)F)F)OC2=O)c1ccccc1)C
+data\raw\xyz\62\62H2.xyz,,RDKit could not parse SMILES: [C@@H]1([P@H](CC[B@H]1c1c(c(c(c(c1F)F)F)F)F)c1ccccc1)C
+data\raw\xyz\62\62H2CO.xyz,,RDKit could not parse SMILES: [C@@H]1([P@]2(CC[B@]1(c1c(c(c(c(c1F)F)F)F)F)OC2)c1ccccc1)C
+data\raw\xyz\62\62H2O.xyz,C[C@@H]1B(c2c(F)c(F)c(F)c(F)c2F)CCP1c1ccccc1.O,
+data\raw\xyz\62\62HCOOH.xyz,,RDKit could not parse SMILES: [C@@H]1([P@H](CC[B@]1(c1c(c(c(c(c1F)F)F)F)F)OC=O)c1ccccc1)C
+data\raw\xyz\63\63.xyz,Cc1cc(C)c(P(OB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\63\63CH3OH.xyz,CO.Cc1cc(C)c(P(OB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\63\63CO2.xyz,,RDKit could not parse SMILES: [P]1(O[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\63\63H2.xyz,,RDKit could not parse SMILES: [PH](O[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\63\63H2CO.xyz,C=O.Cc1cc(C)c(P(OB(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\63\63H2O.xyz,,RDKit could not parse SMILES: [PH](O[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\63\63HCOOH.xyz,,RDKit could not parse SMILES: [PH](O[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\64\64.xyz,,RDKit could not parse SMILES: c1(cccc(c1[P@]12CC[C@H](C1)[B]2(c1c(F)c(F)c(F)c(F)c1F)c1c(c(F)c(c(c1F)F)F)F)c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\64\64CH3OH.xyz,CO.Cc1cc(C)c(-c2cccc(-c3c(C)cc(C)cc3C)c2P2CC[C@@H](B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)C2)c(C)c1,
+data\raw\xyz\64\64CO2.xyz,,RDKit could not parse SMILES: c1(cccc(c1[P@]12CC[C@H](C1)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(c(F)c(c(c1F)F)F)F)OC2=O)c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\64\64H2.xyz,,RDKit could not parse SMILES: c1(cccc(c1[P@@H]1CC[C@H](C1)[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(c(F)c(c(c1F)F)F)F)c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\64\64H2CO.xyz,,RDKit could not parse SMILES: c1(cccc(c1[P@]12CC[C@H](C1)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(c(F)c(c(c1F)F)F)F)OC2)c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\64\64H2O.xyz,,RDKit could not parse SMILES: c1(cccc(c1[P@]12CC[C@H](C1)[B]2(c1c(F)c(F)c(F)c(F)c1F)c1c(c(F)c(c(c1F)F)F)F)c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C.O
+data\raw\xyz\64\64HCOOH.xyz,,RDKit could not parse SMILES: c1(cccc(c1[P@@H]1CC[C@H](C1)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(c(F)c(c(c1F)F)F)F)OC=O)c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\65\65.xyz,,RDKit could not parse SMILES: [C](/C=[BH]/c1c(cc(cc1C(F)(F)F)C(F)(F)F)C(F)(F)F)([Si](C)(C)C)P(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\65\65CH3OH.xyz,CO.Cc1cc(C)c(P(/C(=C\Bc2c(C(F)(F)F)cc(C(F)(F)F)cc2C(F)(F)F)[Si](C)(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\65\65CO2.xyz,,RDKit could not parse SMILES: [C]1([CH][B@@H](c2c(cc(cc2C(F)(F)F)C(F)(F)F)C(F)(F)F)OC(=O)[P]1(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)[Si](C)(C)C
+data\raw\xyz\65\65H2.xyz,,RDKit could not parse SMILES: [PH](/C(=C\[BH2]c1c(cc(cc1C(F)(F)F)C(F)(F)F)C(F)(F)F)/[Si](C)(C)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\65\65H2CO.xyz,,RDKit could not parse SMILES: P([C]([CH][B@H](c1c(cc(cc1C(F)(F)F)C(F)(F)F)C(F)(F)F)O[CH2])[Si](C)(C)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\65\65H2O.xyz,Cc1cc(C)c(P([C]([CH]Bc2c(C(F)(F)F)cc(C(F)(F)F)cc2C(F)(F)F)[Si](C)(C)C)c2c(C)cc(C)cc2C)c(C)c1.O,
+data\raw\xyz\65\65HCOOH.xyz,,RDKit could not parse SMILES: [PH](/C(=C\[B@H](c1c(cc(cc1C(F)(F)F)C(F)(F)F)C(F)(F)F)OC=O)/[Si](C)(C)C)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\66\66.xyz,CC(C)N(B(N(C(C)C)C(C)C)P(C(C)(C)C)C(C)(C)C)C(C)C,
+data\raw\xyz\66\66CH3OH.xyz,CC(C)N(B(N(C(C)C)C(C)C)P(C(C)(C)C)C(C)(C)C)C(C)C.CO,
+data\raw\xyz\66\66CO2.xyz,CC(C)N(B(OC(=O)P(C(C)(C)C)C(C)(C)C)N(C(C)C)C(C)C)C(C)C,
+data\raw\xyz\66\66H2.xyz,CC(C)(C)PC(C)(C)C.CC(C)N(BN(C(C)C)C(C)C)C(C)C,
+data\raw\xyz\66\66H2CO.xyz,C=O.CC(C)N(B(N(C(C)C)C(C)C)P(C(C)(C)C)C(C)(C)C)C(C)C,
+data\raw\xyz\66\66H2O.xyz,CC(C)N(B(N(C(C)C)C(C)C)P(C(C)(C)C)C(C)(C)C)C(C)C.O,
+data\raw\xyz\66\66HCOOH.xyz,CC(C)N(B(N(C(C)C)C(C)C)P(C(C)(C)C)C(C)(C)C)C(C)C.O=CO,
+data\raw\xyz\67\67.xyz,CCC1=C(CC)[P](c2c(C)cc(C)cc2C)(c2c(C)cc(C)cc2C)[Al]1(C(C)(C)C)C(C)(C)C,
+data\raw\xyz\67\67CH3OH.xyz,CC/C(=C(\CC)P(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C)[Al](C(C)(C)C)C(C)(C)C.CO,
+data\raw\xyz\67\67CO2.xyz,CCC1=C(CC)[P](c2c(C)cc(C)cc2C)(c2c(C)cc(C)cc2C)C(=O)O[Al]1(C(C)(C)C)C(C)(C)C,
+data\raw\xyz\67\67H2.xyz,CC[C]1[C](CC)[P](c2c(C)cc(C)cc2C)(c2c(C)cc(C)cc2C)[Al]1(C(C)(C)C)C(C)(C)C.[H][H],
+data\raw\xyz\67\67H2CO.xyz,[CH2]O[Al](/C(CC)=C(/CC)P(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C)(C(C)(C)C)C(C)(C)C,
+data\raw\xyz\67\67H2O.xyz,CC/C(=C(\CC)P(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C)[Al](C(C)(C)C)C(C)(C)C.O,
+data\raw\xyz\67\67HCOOH.xyz,CC[C]([C](CC)[Al](OC=O)(C(C)(C)C)C(C)(C)C)[PH](c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C,
+data\raw\xyz\68\68.xyz,CC(C)(C)P(C[Si](C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F)C(C)(C)C,
+data\raw\xyz\68\68CH3OH.xyz,CC(C)(C)P(C[Si](C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F)C(C)(C)C.CO,
+data\raw\xyz\68\68CO2.xyz,CC(C)(C)[P]1(C(C)(C)C)C[Si](C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)F)OC1=O,
+data\raw\xyz\68\68H2.xyz,CC(C)(C)[PH](C[SiH](C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F)C(C)(C)C,
+data\raw\xyz\68\68H2CO.xyz,C=O.CC(C)(C)P(C[Si](C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F)C(C)(C)C,
+data\raw\xyz\68\68H2O.xyz,CC(C)(C)[PH](C[Si](O)(C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F)C(C)(C)C,
+data\raw\xyz\68\68HCOOH.xyz,CC(C)(C)[PH](C[Si](OC=O)(C(F)(F)C(F)(F)F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F)C(C)(C)C,
+data\raw\xyz\69\69.xyz,CC(C)(C)P(C[Si](F)(F)F)C(C)(C)C,
+data\raw\xyz\69\69CH3OH.xyz,CC(C)(C)P(C[Si](F)(F)F)C(C)(C)C.CO,
+data\raw\xyz\69\69CO2.xyz,CC(C)(C)[P]1(C(C)(C)C)C[Si](F)(F)(F)OC1=O,
+data\raw\xyz\69\69H2.xyz,CC(C)(C)P(C[Si](F)(F)F)C(C)(C)C.[H][H],
+data\raw\xyz\69\69H2CO.xyz,C=O.CC(C)(C)P(C[Si](F)(F)F)C(C)(C)C,
+data\raw\xyz\69\69H2O.xyz,CC(C)(C)P(C[Si](F)(F)F)C(C)(C)C.O,
+data\raw\xyz\69\69HCOOH.xyz,CC(C)(C)P(C[Si](F)(F)F)C(C)(C)C.O=CO,
+data\raw\xyz\7\7.xyz,Fc1c(F)c(F)c(B(c2ccccc2N(c2ccccc2)c2ccccc2)c2c(F)c(F)c(F)c(F)c2F)c(F)c1F,
+data\raw\xyz\7\7CH3OH.xyz,CO.Fc1c(F)c(F)c(B(c2ccccc2N(c2ccccc2)c2ccccc2)c2c(F)c(F)c(F)c(F)c2F)c(F)c1F,
+data\raw\xyz\7\7CO2.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2[N](c2ccccc2)(c2ccccc2)C(=O)O1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\7\7H2.xyz,,RDKit could not parse SMILES: [BH](c1ccccc1[NH](c1ccccc1)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\7\7H2CO.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2[N](c2ccccc2)(c2ccccc2)CO1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\7\7H2O.xyz,Fc1c(F)c(F)c(B(c2ccccc2N(c2ccccc2)c2ccccc2)c2c(F)c(F)c(F)c(F)c2F)c(F)c1F.O,
+data\raw\xyz\7\7HCOOH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1[NH](c1ccccc1)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\70\70.xyz,CC(C)(C)P(C[Si](Cl)(Cl)Cl)C(C)(C)C,
+data\raw\xyz\70\70CH3OH.xyz,CC(C)(C)P(C[Si](Cl)(Cl)Cl)C(C)(C)C.CO,
+data\raw\xyz\70\70CO2.xyz,CC(C)(C)[P]1(C(C)(C)C)C[Si](Cl)(Cl)(Cl)OC1=O,
+data\raw\xyz\70\70H2.xyz,CC(C)(C)[PH](C[SiH](Cl)(Cl)Cl)C(C)(C)C,
+data\raw\xyz\70\70H2CO.xyz,C=O.CC(C)(C)P(C[Si](Cl)(Cl)Cl)C(C)(C)C,
+data\raw\xyz\70\70H2O.xyz,CC(C)(C)P(C[Si](Cl)(Cl)Cl)C(C)(C)C.O,
+data\raw\xyz\70\70HCOOH.xyz,CC(C)(C)P(C[Si](Cl)(Cl)Cl)C(C)(C)C.O=CO,
+data\raw\xyz\71\71.xyz,CC(C)(C)P(CB(c1ccccc1)c1ccccc1)C(C)(C)C,
+data\raw\xyz\71\71CH3OH.xyz,CC(C)(C)P(CB(c1ccccc1)c1ccccc1)C(C)(C)C.CO,
+data\raw\xyz\71\71CO2.xyz,,RDKit could not parse SMILES: C1[P](C(C)(C)C)(C(C)(C)C)C(=O)O[B]1(c1ccccc1)c1ccccc1
+data\raw\xyz\71\71H2.xyz,,RDKit could not parse SMILES: C([PH](C(C)(C)C)C(C)(C)C)[BH](c1ccccc1)c1ccccc1
+data\raw\xyz\71\71H2CO.xyz,,RDKit could not parse SMILES: C1[P](C(C)(C)C)(C(C)(C)C)CO[B]1(c1ccccc1)c1ccccc1
+data\raw\xyz\71\71H2O.xyz,CC(C)(C)P(CB(c1ccccc1)c1ccccc1)C(C)(C)C.O,
+data\raw\xyz\71\71HCOOH.xyz,,RDKit could not parse SMILES: C([PH](C(C)(C)C)C(C)(C)C)[B](c1ccccc1)(c1ccccc1)OC=O
+data\raw\xyz\72\72.xyz,CC(C)(C)P(CB(c1cc(C(F)(F)F)cc(C(F)(F)F)c1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1)C(C)(C)C,
+data\raw\xyz\72\72CH3OH.xyz,CC(C)(C)P(CB(c1cc(C(F)(F)F)cc(C(F)(F)F)c1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1)C(C)(C)C.CO,
+data\raw\xyz\72\72CO2.xyz,,RDKit could not parse SMILES: C1[P](C(C)(C)C)(C(C)(C)C)C(=O)O[B]1(c1cc(cc(c1)C(F)(F)F)C(F)(F)F)c1cc(cc(c1)C(F)(F)F)C(F)(F)F
+data\raw\xyz\72\72H2.xyz,,RDKit could not parse SMILES: C([PH](C(C)(C)C)C(C)(C)C)[BH](c1cc(cc(c1)C(F)(F)F)C(F)(F)F)c1cc(cc(c1)C(F)(F)F)C(F)(F)F
+data\raw\xyz\72\72H2CO.xyz,,RDKit could not parse SMILES: C1[P](C(C)(C)C)(C(C)(C)C)CO[B]1(c1cc(cc(c1)C(F)(F)F)C(F)(F)F)c1cc(cc(c1)C(F)(F)F)C(F)(F)F
+data\raw\xyz\72\72H2O.xyz,CC(C)(C)P(CB(c1cc(C(F)(F)F)cc(C(F)(F)F)c1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1)C(C)(C)C.O,
+data\raw\xyz\72\72HCOOH.xyz,,RDKit could not parse SMILES: C([PH](C(C)(C)C)C(C)(C)C)[B](c1cc(cc(c1)C(F)(F)F)C(F)(F)F)(c1cc(cc(c1)C(F)(F)F)C(F)(F)F)OC=O
+data\raw\xyz\73\73.xyz,,RDKit could not parse SMILES: [N]1([B](C[C@H]1c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(CC)CC
+data\raw\xyz\73\73CH3OH.xyz,,RDKit could not parse SMILES: [NH]([C@@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC)c1ccccc1)(CC)CC
+data\raw\xyz\73\73CO2.xyz,,RDKit could not parse SMILES: [N]1([C@@H](C[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O)c1ccccc1)(CC)CC
+data\raw\xyz\73\73H2.xyz,,RDKit could not parse SMILES: [NH]([C@@H](C[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)c1ccccc1)(CC)CC
+data\raw\xyz\73\73H2CO.xyz,,RDKit could not parse SMILES: [N]1([C@@H](C[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1)c1ccccc1)(CC)CC
+data\raw\xyz\73\73H2O.xyz,,RDKit could not parse SMILES: [NH]([C@@H](C[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O)c1ccccc1)(CC)CC
+data\raw\xyz\73\73HCOOH.xyz,CCN(CC)[C@@H](CB(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)c1ccccc1.O=CO,
+data\raw\xyz\74\74.xyz,,RDKit could not parse SMILES: [N]12([B](C[C@H]1c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)CCCCC2
+data\raw\xyz\74\74CH3OH.xyz,,RDKit could not parse SMILES: [NH]1([C@@H](C[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC)c2ccccc2)CCCCC1
+data\raw\xyz\74\74CO2.xyz,,RDKit could not parse SMILES: [N]12([C@@H](C[B](c3c(F)c(F)c(F)c(F)c3F)(c3c(F)c(F)c(F)c(F)c3F)OC2=O)c2ccccc2)CCCCC1
+data\raw\xyz\74\74H2.xyz,,RDKit could not parse SMILES: [NH]1([C@@H](C[BH](c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2ccccc2)CCCCC1
+data\raw\xyz\74\74H2CO.xyz,,RDKit could not parse SMILES: [N]12([C@@H](C[B](c3c(F)c(F)c(F)c(F)c3F)(c3c(F)c(F)c(F)c(F)c3F)OC2)c2ccccc2)CCCCC1
+data\raw\xyz\74\74H2O.xyz,,RDKit could not parse SMILES: [NH]1([C@@H](C[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)O)c2ccccc2)CCCCC1
+data\raw\xyz\75\75.xyz,,RDKit could not parse SMILES: [N]12([B](C([C@H]1c1ccccc1)(C)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)CCCCC2
+data\raw\xyz\75\75CH3OH.xyz,,RDKit could not parse SMILES: [NH]1([C@@H](C([B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC)(C)C)c2ccccc2)CCCCC1
+data\raw\xyz\75\75CO2.xyz,,RDKit could not parse SMILES: [N]12([C@@H](C([B](c3c(F)c(F)c(F)c(F)c3F)(c3c(F)c(F)c(F)c(F)c3F)OC2=O)(C)C)c2ccccc2)CCCCC1
+data\raw\xyz\75\75H2.xyz,,RDKit could not parse SMILES: [NH]1([C@@H](C([BH](c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)(C)C)c2ccccc2)CCCCC1
+data\raw\xyz\75\75H2CO.xyz,,RDKit could not parse SMILES: [N]12([C@@H](C([B](c3c(F)c(F)c(F)c(F)c3F)(c3c(F)c(F)c(F)c(F)c3F)OC2)(C)C)c2ccccc2)CCCCC1
+data\raw\xyz\75\75H2O.xyz,,RDKit could not parse SMILES: [NH]1([C@@H](C([B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)O)(C)C)c2ccccc2)CCCCC1
+data\raw\xyz\75\75HCOOH.xyz,,RDKit could not parse SMILES: [NH]1([C@@H](C([B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC=O)(C)C)c2ccccc2)CCCCC1
+data\raw\xyz\76\76.xyz,,RDKit could not parse SMILES: [N]12([B]([C@H]3[C@H]1CCCC3)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)CCCCC2
+data\raw\xyz\76\76CH3OH.xyz,,RDKit could not parse SMILES: [NH]1([C@H]2[C@H]([B](c3c(F)c(F)c(F)c(F)c3F)(c3c(F)c(F)c(F)c(F)c3F)OC)CCCC2)CCCCC1
+data\raw\xyz\76\76CO2.xyz,,RDKit could not parse SMILES: [N]12([C@H]3[C@H]([B](c4c(F)c(F)c(F)c(F)c4F)(c4c(F)c(F)c(F)c(F)c4F)OC2=O)CCCC3)CCCCC1
+data\raw\xyz\76\76H2.xyz,,RDKit could not parse SMILES: [NH]1([C@H]2[C@H]([BH](c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)CCCC2)CCCCC1
+data\raw\xyz\76\76H2CO.xyz,,RDKit could not parse SMILES: N1([C@H]2[C@H]([B](c3c(F)c(F)c(F)c(F)c3F)(c3c(F)c(F)c(F)c(F)c3F)O[CH2])CCCC2)CCCCC1
+data\raw\xyz\76\76H2O.xyz,,RDKit could not parse SMILES: [NH]1([C@H]2[C@H]([B](c3c(F)c(F)c(F)c(F)c3F)(c3c(F)c(F)c(F)c(F)c3F)O)CCCC2)CCCCC1
+data\raw\xyz\76\76HCOOH.xyz,,RDKit could not parse SMILES: [NH]1([C@H]2[C@H]([B](c3c(F)c(F)c(F)c(F)c3F)(c3c(F)c(F)c(F)c(F)c3F)OC=O)CCCC2)CCCCC1
+data\raw\xyz\77\77.xyz,,RDKit could not parse SMILES: [B]1([C@H]2[C@@H](CCCC2)[N]21CCCC2)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\77\77CH3OH.xyz,,RDKit could not parse SMILES: [B]([C@H]1[C@@H](CCCC1)[NH]1CCCC1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC
+data\raw\xyz\77\77CO2.xyz,,RDKit could not parse SMILES: [B]1([C@H]2[C@@H](CCCC2)[N]2(CCCC2)C(=O)O1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\77\77H2.xyz,,RDKit could not parse SMILES: [BH]([C@H]1[C@@H](CCCC1)[NH]1CCCC1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\77\77H2CO.xyz,,RDKit could not parse SMILES: [B]([C@H]1[C@@H](CCCC1)N1CCCC1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH2]
+data\raw\xyz\77\77H2O.xyz,,RDKit could not parse SMILES: [B]([C@H]1[C@@H](CCCC1)[NH]1CCCC1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\77\77HCOOH.xyz,,RDKit could not parse SMILES: [B]([C@H]1[C@@H](CCCC1)[NH]1CCCC1)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\78\78.xyz,Cc1cc(C)c(P(c2c(C)cc(C)cc2C)[C@H]2C[C@H](B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)c3ccccc32)c(C)c1,
+data\raw\xyz\78\78CH3OH.xyz,CO.Cc1cc(C)c(P(c2c(C)cc(C)cc2C)[C@@H]2C[C@H](B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)c3ccccc32)c(C)c1,
+data\raw\xyz\78\78CO2.xyz,,RDKit could not parse SMILES: c12c(cccc1)[C@@H]1C[C@H]2[P](c2c(cc(cc2C)C)C)(c2c(cc(cc2C)C)C)C(=O)O[B]1(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\78\78H2.xyz,,RDKit could not parse SMILES: c12c(cccc1)[C@H](C[C@@H]2[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)[BH](c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\78\78H2CO.xyz,,RDKit could not parse SMILES: c12c(cccc1)[C@H](C[C@H]2P(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O[CH2]
+data\raw\xyz\78\78H2O.xyz,Cc1cc(C)c(P(c2c(C)cc(C)cc2C)[C@@H]2C[C@H](B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)c3ccccc32)c(C)c1.O,
+data\raw\xyz\78\78HCOOH.xyz,,RDKit could not parse SMILES: c12c(cccc1)[C@H](C[C@H]2[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC=O
+data\raw\xyz\79\79.xyz,Cc1cc(C)c(P(c2c(C)cc(C)cc2C)c2cccc3c2oc2c(B(c4c(F)c(F)c(F)c(F)c4F)c4c(F)c(F)c(F)c(F)c4F)cccc23)c(C)c1,
+data\raw\xyz\79\79CH3OH.xyz,CO.Cc1cc(C)c(P(c2c(C)cc(C)cc2C)c2cccc3c2oc2c(B(c4c(F)c(F)c(F)c(F)c4F)c4c(F)c(F)c(F)c(F)c4F)cccc23)c(C)c1,
+data\raw\xyz\79\79CO2.xyz,Cc1cc(C)c(P(=O)(c2c(C)cc(C)cc2C)c2cccc3c2oc2c(B(c4c(F)c(F)c(F)c(F)c4F)c4c(F)c(F)c(F)c(F)c4F)cccc23)c(C)c1.[C]=O,
+data\raw\xyz\79\79H2.xyz,,RDKit could not parse SMILES: c1cc(c2c(c1)c1c(c(ccc1)[BH](c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)o2)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\79\79H2CO.xyz,,RDKit could not parse SMILES: c1cc(c2c(c1)c1c(c(ccc1)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O[CH2])o2)P(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\79\79H2O.xyz,Cc1cc(C)c(P(c2c(C)cc(C)cc2C)c2cccc3c2oc2c(B(c4c(F)c(F)c(F)c(F)c4F)c4c(F)c(F)c(F)c(F)c4F)cccc23)c(C)c1.O,
+data\raw\xyz\79\79HCOOH.xyz,,RDKit could not parse SMILES: c1cc(c2c(c1)c1c(c(ccc1)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC=O)o2)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\8\8.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2[N]1(C)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\8\8CH3OH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1[NH](C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC
+data\raw\xyz\8\8CO2.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2[N](C)(C)C(=O)O1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\8\8H2.xyz,,RDKit could not parse SMILES: [BH](c1ccccc1[NH](C)C)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\8\8H2CO.xyz,,RDKit could not parse SMILES: [B]1(c2ccccc2[N](C)(C)CO1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\8\8H2O.xyz,,RDKit could not parse SMILES: [B](c1ccccc1[NH](C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O
+data\raw\xyz\8\8HCOOH.xyz,,RDKit could not parse SMILES: [B](c1ccccc1[NH](C)C)(c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)OC=O
+data\raw\xyz\80\80.xyz,Cc1cc(C)c(P(c2cccc3c2Oc2c(B(c4c(F)c(F)c(F)c(F)c4F)c4c(F)c(F)c(F)c(F)c4F)cccc2C3(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\80\80CH3OH.xyz,CO.Cc1cc(C)c(P(c2cccc3c2Oc2c(B(c4c(F)c(F)c(F)c(F)c4F)c4c(F)c(F)c(F)c(F)c4F)cccc2C3(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\80\80CO2.xyz,,RDKit could not parse SMILES: c1c2c3c(cc1)C(c1c(c(ccc1)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC(=O)[P]2(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)O3)(C)C
+data\raw\xyz\80\80H2.xyz,,RDKit could not parse SMILES: c1c(c2c(cc1)C(c1c(c(ccc1)[BH](c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)O2)(C)C)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\80\80H2CO.xyz,,RDKit could not parse SMILES: c1c2c3c(cc1)C(c1c(c(ccc1)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC[P]2(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C)O3)(C)C
+data\raw\xyz\80\80H2O.xyz,Cc1cc(C)c(P(c2cccc3c2Oc2c(B(c4c(F)c(F)c(F)c(F)c4F)c4c(F)c(F)c(F)c(F)c4F)cccc2C3(C)C)c2c(C)cc(C)cc2C)c(C)c1.O,
+data\raw\xyz\80\80HCOOH.xyz,,RDKit could not parse SMILES: c1c(c2c(cc1)C(c1c(c(ccc1)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC=O)O2)(C)C)[PH](c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\81\81.xyz,CC(C)P(c1cccc2c1Oc1c(B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)cccc1C2(C)C)C(C)C,
+data\raw\xyz\81\81CH3OH.xyz,CC(C)P(c1cccc2c1Oc1c(B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)cccc1C2(C)C)C(C)C.CO,
+data\raw\xyz\81\81CO2.xyz,,RDKit could not parse SMILES: c1c2c3c(cc1)C(c1c(c(ccc1)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC(=O)[P]2(C(C)C)C(C)C)O3)(C)C
+data\raw\xyz\81\81H2.xyz,,RDKit could not parse SMILES: c1c(c2c(cc1)C(c1c(c(ccc1)[BH](c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)O2)(C)C)[PH](C(C)C)C(C)C
+data\raw\xyz\81\81H2CO.xyz,,RDKit could not parse SMILES: c1c(c2c(cc1)C(c1c(c(ccc1)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O[CH2])O2)(C)C)P(C(C)C)C(C)C
+data\raw\xyz\81\81H2O.xyz,CC(C)P(c1cccc2c1Oc1c(B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)cccc1C2(C)C)C(C)C.O,
+data\raw\xyz\81\81HCOOH.xyz,,RDKit could not parse SMILES: c1c(c2c(cc1)C(c1c(c(ccc1)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O[CH]O)O2)(C)C)P(C(C)C)C(C)C
+data\raw\xyz\83\83.xyz,CC1(C)c2cccc(B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21,
+data\raw\xyz\83\83CH3OH.xyz,CC1(C)c2cccc(B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CO,
+data\raw\xyz\83\83CO2.xyz,,RDKit could not parse SMILES: [P]1(c2c3Oc4c([B](c5c(F)c(F)c(F)c(c5F)F)(c5c(c(c(c(c5F)F)F)F)F)OC1=O)cccc4C(c3ccc2)(C)C)(c1ccccc1)c1ccccc1
+data\raw\xyz\83\83H2.xyz,,RDKit could not parse SMILES: [PH](c1c2Oc3c([BH](c4c(F)c(F)c(F)c(c4F)F)c4c(c(c(c(c4F)F)F)F)F)cccc3C(c2ccc1)(C)C)(c1ccccc1)c1ccccc1
+data\raw\xyz\83\83H2CO.xyz,,RDKit could not parse SMILES: P(c1c2Oc3c([B](c4c(F)c(F)c(F)c(c4F)F)(c4c(c(c(c(c4F)F)F)F)F)O[CH2])cccc3C(c2ccc1)(C)C)(c1ccccc1)c1ccccc1
+data\raw\xyz\83\83H2O.xyz,CC1(C)c2cccc(B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.O,
+data\raw\xyz\83\83HCOOH.xyz,,RDKit could not parse SMILES: P(c1c2Oc3c([B](c4c(F)c(F)c(F)c(c4F)F)(c4c(c(c(c(c4F)F)F)F)F)O[CH]O)cccc3C(c2ccc1)(C)C)(c1ccccc1)c1ccccc1
+data\raw\xyz\84\84.xyz,,RDKit could not parse SMILES: [P]1([B](C2=C[C@@H]([C@@H]3C(=C12)CCCC3)c1ccccc1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\84\84CH3OH.xyz,CO.Cc1cc(C)c(P(C2=C3CCCC[C@@H]3[C@@H](c3ccccc3)C=C2B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\84\84CO2.xyz,,RDKit could not parse SMILES: [P]1(C2=C3[C@@H]([C@H](C=C2[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O)c1ccccc1)CCCC3)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\84\84H2.xyz,,RDKit could not parse SMILES: [PH](C1=C2[C@@H]([C@H](C=C1[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)c1ccccc1)CCCC2)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\84\84H2CO.xyz,,RDKit could not parse SMILES: [P]1(C2=C3[C@@H]([C@H](C=C2[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1)c1ccccc1)CCCC3)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\84\84H2O.xyz,Cc1cc(C)c(P([C]2[C]3CCCC[C@@H]3[C@@H](c3ccccc3)C=C2B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(C)cc(C)cc2C)c(C)c1.O,
+data\raw\xyz\84\84HCOOH.xyz,,RDKit could not parse SMILES: P([C]1C(=C[C@@H]([C@@H]2[C]1CCCC2)c1ccccc1)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH]O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\85\85.xyz,,RDKit could not parse SMILES: [P]1([B](c2c1c1c(c(c2)c2ccccc2)CCCC1)(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\85\85CH3OH.xyz,CO.Cc1cc(C)c(P(c2c(C)cc(C)cc2C)c2c(B(c3c(F)c(F)c(F)c(F)c3F)c3c(F)c(F)c(F)c(F)c3F)cc(-c3ccccc3)c3c2CCCC3)c(C)c1,
+data\raw\xyz\85\85CO2.xyz,,RDKit could not parse SMILES: [P]1(c2c([B](c3c(F)c(F)c(F)c(F)c3F)(c3c(F)c(F)c(F)c(F)c3F)OC1=O)cc(c1c2CCCC1)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\85\85H2.xyz,,RDKit could not parse SMILES: [PH](c1c([BH](c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)cc(c2c1CCCC2)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\85\85H2CO.xyz,,RDKit could not parse SMILES: [P]1(c2c([B](c3c(F)c(F)c(F)c(F)c3F)(c3c(F)c(F)c(F)c(F)c3F)OC1)cc(c1c2CCCC1)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\85\85H2O.xyz,,RDKit could not parse SMILES: [PH](c1c([B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)O)cc(c2c1CCCC2)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\85\85HCOOH.xyz,,RDKit could not parse SMILES: [PH](c1c([B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC=O)cc(c2c1CCCC2)c1ccccc1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\86\86.xyz,,RDKit could not parse SMILES: [P]1(c2c(cc(cc2C)C(C)(C)C)[B]1(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\86\86CH3OH.xyz,,RDKit could not parse SMILES: [PH](c1c(cc(cc1C)C(C)(C)C)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\86\86CO2.xyz,,RDKit could not parse SMILES: [P]1(c2c(cc(cc2C)C(C)(C)C)[B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC1=O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\86\86H2.xyz,,RDKit could not parse SMILES: [PH](c1c(cc(cc1C)C(C)(C)C)[BH](c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\86\86H2CO.xyz,,RDKit could not parse SMILES: [P]1(c2c(cc(cc2C)C(C)(C)C)[B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\86\86H2O.xyz,,RDKit could not parse SMILES: [PH](c1c(cc(cc1C)C(C)(C)C)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\86\86HCOOH.xyz,,RDKit could not parse SMILES: [PH](c1c(cc(cc1C)C(C)(C)C)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC=O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\87\87.xyz,,RDKit could not parse SMILES: [P]1(c2c(cc(cc2C)c2ccccc2)[B]1(c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\87\87CH3OH.xyz,CO.Cc1cc(C)c(P(c2c(C)cc(C)cc2C)c2c(C)cc(-c3ccccc3)cc2B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(C)c1,
+data\raw\xyz\87\87CO2.xyz,,RDKit could not parse SMILES: [P]1(c2c(cc(cc2C)c2ccccc2)[B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC1=O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\87\87H2.xyz,,RDKit could not parse SMILES: [PH](c1c(cc(cc1C)c1ccccc1)[BH](c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\87\87H2CO.xyz,,RDKit could not parse SMILES: [P]1(c2c(cc(cc2C)c2ccccc2)[B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC1)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\87\87H2O.xyz,Cc1cc(C)c(P(c2c(C)cc(C)cc2C)c2c(C)cc(-c3ccccc3)cc2B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(C)c1.O,
+data\raw\xyz\87\87HCOOH.xyz,,RDKit could not parse SMILES: [PH](c1c(cc(cc1C)c1ccccc1)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)OC=O)(c1c(cc(cc1C)C)C)c1c(cc(cc1C)C)C
+data\raw\xyz\88\88.xyz,Cc1cc(C)c(P(/C(=C/c2ccccc2)[Al](C(C)(C)C)C(C)(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\88\88CH3OH.xyz,CO.Cc1cc(C)c(P(/C(=C/c2ccccc2)[Al](C(C)(C)C)C(C)(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\88\88CO2.xyz,Cc1cc(C)c([P]2(c3c(C)cc(C)cc3C)[C]([CH]c3ccccc3)[Al](C(C)(C)C)(C(C)(C)C)OC2=O)c(C)c1,
+data\raw\xyz\88\88H2.xyz,Cc1cc(C)c([PH](/C(=C/c2ccccc2)[AlH](C(C)(C)C)C(C)(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\88\88H2CO.xyz,[CH2]O[Al](/C(=C\c1ccccc1)P(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C)(C(C)(C)C)C(C)(C)C,
+data\raw\xyz\88\88H2O.xyz,Cc1cc(C)c(P(/C(=C/c2ccccc2)[Al](C(C)(C)C)C(C)(C)C)c2c(C)cc(C)cc2C)c(C)c1.O,
+data\raw\xyz\88\88HCOOH.xyz,Cc1cc(C)c(P(/C(=C/c2ccccc2)[Al](O[CH]O)(C(C)(C)C)C(C)(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\89\89.xyz,Cc1cc(C)c(P(/C(=C/c2ccccc2)[Al](CC(C)(C)C)CC(C)(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\89\89CH3OH.xyz,CO.Cc1cc(C)c(P(/C(=C/c2ccccc2)[Al](CC(C)(C)C)CC(C)(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\89\89CO2.xyz,Cc1cc(C)c(P(/C(=C/c2ccccc2)[Al](CC(C)(C)C)CC(C)(C)C)c2c(C)cc(C)cc2C)c(C)c1.O=C=O,
+data\raw\xyz\89\89H2.xyz,Cc1cc(C)c([PH](/C(=C/c2ccccc2)[AlH](CC(C)(C)C)CC(C)(C)C)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\89\89H2CO.xyz,[CH2]O[Al](CC(C)(C)C)(CC(C)(C)C)/C(=C\c1ccccc1)P(c1c(C)cc(C)cc1C)c1c(C)cc(C)cc1C,
+data\raw\xyz\89\89H2O.xyz,Cc1cc(C)c(P(/C(=C/c2ccccc2)[Al](CC(C)(C)C)CC(C)(C)C)c2c(C)cc(C)cc2C)c(C)c1.O,
+data\raw\xyz\89\89HCOOH.xyz,Cc1cc(C)c([PH](/C(=C/c2ccccc2)[Al](CC(C)(C)C)(CC(C)(C)C)OC=O)c2c(C)cc(C)cc2C)c(C)c1,
+data\raw\xyz\9\9.xyz,CC1(C)CCCC(C)(C)N1c1ccccc1B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F,
+data\raw\xyz\9\9CH3OH.xyz,CC1(C)CCCC(C)(C)N1c1ccccc1B(c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F.CO,
+data\raw\xyz\9\9CO2.xyz,,RDKit could not parse SMILES: c12ccccc1[N]1(C(CCCC1(C)C)(C)C)C(=O)O[B]2(c1c(F)c(F)c(F)c(F)c1F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\9\9H2.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\9\9H2CO.xyz,,RDKit could not parse SMILES: c12ccccc1[N]1(C(CCCC1(C)C)(C)C)CO[B]2(c1c(F)c(F)c(F)c(F)c1F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\9\9H2O.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(c(c(c(c1F)F)F)F)F)O
+data\raw\xyz\9\9HCOOH.xyz,,RDKit could not parse SMILES: c1(ccccc1[NH]1C(CCCC1(C)C)(C)C)[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(c(c(c(c1F)F)F)F)F)OC=O
+data\raw\xyz\90\90.xyz,Cc1cc(C)c(P/C(=C\C(C)(C)C)[Al](C([Si](C)(C)C)[Si](C)(C)C)C([Si](C)(C)C)[Si](C)(C)C)c(C)c1,
+data\raw\xyz\90\90CH3OH.xyz,CO.Cc1cc(C)c(P/C(=C\C(C)(C)C)[Al](C([Si](C)(C)C)[Si](C)(C)C)C([Si](C)(C)C)[Si](C)(C)C)c(C)c1,
+data\raw\xyz\90\90CO2.xyz,[CH2][Si](C)C.[H],
+data\raw\xyz\90\90H2.xyz,Cc1cc(C)c([PH2]/C(=C\C(C)(C)C)[AlH](C([Si](C)(C)C)[Si](C)(C)C)C([Si](C)(C)C)[Si](C)(C)C)c(C)c1,
+data\raw\xyz\90\90H2CO.xyz,[CH2]O[Al](/C(=C/C(C)(C)C)Pc1c(C)cc(C)cc1C)(C([Si](C)(C)C)[Si](C)(C)C)C([Si](C)(C)C)[Si](C)(C)C,
+data\raw\xyz\90\90H2O.xyz,Cc1cc(C)c(P/C(=C\C(C)(C)C)[Al](C([Si](C)(C)C)[Si](C)(C)C)C([Si](C)(C)C)[Si](C)(C)C)c(C)c1.O,
+data\raw\xyz\90\90HCOOH.xyz,Cc1cc(C)c([PH2]/C(=C\C(C)(C)C)[Al](OC=O)(C([Si](C)(C)C)[Si](C)(C)C)C([Si](C)(C)C)[Si](C)(C)C)c(C)c1,
+data\raw\xyz\91\91.xyz,CC(C)(C)[CH][C](PC([Si](C)(C)C)[Si](C)(C)C)[Al](C([Si](C)(C)C)[Si](C)(C)C)C([Si](C)(C)C)[Si](C)(C)C,
+data\raw\xyz\91\91CH3OH.xyz,CC(C)(C)/C=C(\PC([Si](C)(C)C)[Si](C)(C)C)[Al](C([Si](C)(C)C)[Si](C)(C)C)C([Si](C)(C)C)[Si](C)(C)C.CO,
+data\raw\xyz\91\91CO2.xyz,CC(C)(C)/C=C(\PC([Si](C)(C)C)[Si](C)(C)C)C(=O)O[Al](C([Si](C)(C)C)[Si](C)(C)C)C([Si](C)(C)C)[Si](C)(C)C,
+data\raw\xyz\91\91H2.xyz,CC(C)(C)/C=C(\[PH2]C([Si](C)(C)C)[Si](C)(C)C)[AlH](C([Si](C)(C)C)[Si](C)(C)C)C([Si](C)(C)C)[Si](C)(C)C,
+data\raw\xyz\91\91H2CO.xyz,CC(C)(C)[CH][C]1[P@@H](C([Si](C)(C)C)[Si](C)(C)C)CO[Al]1(C([Si](C)(C)C)[Si](C)(C)C)C([Si](C)(C)C)[Si](C)(C)C,
+data\raw\xyz\91\91H2O.xyz,CC(C)(C)/C=C(\PC([Si](C)(C)C)[Si](C)(C)C)[Al](C([Si](C)(C)C)[Si](C)(C)C)C([Si](C)(C)C)[Si](C)(C)C.O,
+data\raw\xyz\91\91HCOOH.xyz,CC(C)(C)/C=C(\PC([Si](C)(C)C)[Si](C)(C)C)[Al](O[CH]O)(C([Si](C)(C)C)[Si](C)(C)C)C([Si](C)(C)C)[Si](C)(C)C,
+data\raw\xyz\94\94.xyz,Cc1ccc(S/C(=C\C(C)(C)C)B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)cc1,
+data\raw\xyz\94\94CH3OH.xyz,CO.Cc1ccc(S/C(=C\C(C)(C)C)B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)cc1,
+data\raw\xyz\94\94CO2.xyz,,RDKit could not parse SMILES: [S@@]1(c2ccc(cc2)C)/C(=C\C(C)(C)C)/[B](c2c(F)c(F)c(F)c(F)c2F)(c2c(F)c(F)c(F)c(F)c2F)OC1=O
+data\raw\xyz\94\94H2.xyz,,RDKit could not parse SMILES: [SH](c1ccc(cc1)C)/C(=C\C(C)(C)C)/[BH](c1c(F)c(F)c(F)c(F)c1F)c1c(F)c(F)c(F)c(F)c1F
+data\raw\xyz\94\94H2CO.xyz,,RDKit could not parse SMILES: S(c1ccc(cc1)C)/C(=C\C(C)(C)C)/[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH2]
+data\raw\xyz\94\94H2O.xyz,Cc1ccc(S/C(=C\C(C)(C)C)B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)cc1.O,
+data\raw\xyz\94\94HCOOH.xyz,,RDKit could not parse SMILES: S(c1ccc(cc1)C)/C(=C\C(C)(C)C)/[B](c1c(F)c(F)c(F)c(F)c1F)(c1c(F)c(F)c(F)c(F)c1F)O[CH]O
+data\raw\xyz\95\95.xyz,Cc1cc(C)c(P/C(=C\C(C)(C)C)B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(C)c1,
+data\raw\xyz\95\95CH3OH.xyz,CO.Cc1cc(C)c(P/C(=C\C(C)(C)C)B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(C)c1,
+data\raw\xyz\95\95CO2.xyz,,RDKit could not parse SMILES: [P@@H]1(/C(=C\C(C)(C)C)/[B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC1=O)c1c(C)cc(C)cc1C
+data\raw\xyz\95\95H2.xyz,,RDKit could not parse SMILES: [PH2](/C(=C\C(C)(C)C)/[BH](c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F)c1c(C)cc(C)cc1C
+data\raw\xyz\95\95H2CO.xyz,,RDKit could not parse SMILES: P(/C(=C\C(C)(C)C)/[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O[CH2])c1c(C)cc(C)cc1C
+data\raw\xyz\95\95H2O.xyz,Cc1cc(C)c(P/C(=C\C(C)(C)C)B(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(C)c1.O,
+data\raw\xyz\95\95HCOOH.xyz,,RDKit could not parse SMILES: P(/C(=C\C(C)(C)C)/[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O[CH]O)c1c(C)cc(C)cc1C
+data\raw\xyz\96\96.xyz,Fc1c(F)c(F)c(B(/C(=C/c2ccccc2)P(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(F)c1F,
+data\raw\xyz\96\96CH3OH.xyz,CO.Fc1c(F)c(F)c(B(/C(=C/c2ccccc2)P(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(F)c1F,
+data\raw\xyz\96\96CO2.xyz,,RDKit could not parse SMILES: [P]1(c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)/C(=C\c2ccccc2)/[B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC1=O
+data\raw\xyz\96\96H2.xyz,,RDKit could not parse SMILES: [PH](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)/C(=C\c1ccccc1)/[BH](c1c(c(c(c(c1F)F)F)F)F)c1c(c(c(c(c1F)F)F)F)F
+data\raw\xyz\96\96H2CO.xyz,,RDKit could not parse SMILES: [P]1(c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)/C(=C\c2ccccc2)/[B](c2c(c(c(c(c2F)F)F)F)F)(c2c(c(c(c(c2F)F)F)F)F)OC1
+data\raw\xyz\96\96H2O.xyz,[C][C]/[C]=[C]\[C].[C][C][C]=[C].[c]1[c][c][c][c][c]1,
+data\raw\xyz\96\96HCOOH.xyz,,RDKit could not parse SMILES: P(c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)[C]([CH]c1ccccc1)[B](c1c(c(c(c(c1F)F)F)F)F)(c1c(c(c(c(c1F)F)F)F)F)O[CH]O
+data\raw\xyz\97\97.xyz,C1CN=C2N(C1)CCCN2B1[C@H]2CCC[C@@H]1CCC2,
+data\raw\xyz\97\97CH3OH.xyz,,RDKit could not parse SMILES: [N@]1([C]2[N@@](CCCN2)CCC1)[B@]1([C@H]2CCC[C@@H]1CCC2)OC
+data\raw\xyz\97\97CO2.xyz,,RDKit could not parse SMILES: [N@@]12[C]3[N@](CCCN3C(=O)O[B@]32[C@H]2CCC[C@@H]3CCC2)CCC1
+data\raw\xyz\97\97H2.xyz,,RDKit could not parse SMILES: N1([C]2[N@@](CCCN2)CCC1)[BH2][C@H]1CCC=CCCC1
+data\raw\xyz\97\97H2CO.xyz,,RDKit could not parse SMILES: [N@]12[C]3[N@](CCC[N@@]3CO[B@]32[C@H]2CCC[C@@H]3CCC2)CCC1
+data\raw\xyz\97\97H2O.xyz,,RDKit could not parse SMILES: [N@]1([C]2[N@@](CCCN2)CCC1)[B@]1([C@H]2CCC[C@@H]1CCC2)O
+data\raw\xyz\97\97HCOOH.xyz,,RDKit could not parse SMILES: [N@]1([C]2[N@@](CCCN2)CCC1)[B@]1([C@H]2CCC[C@@H]1CCC2)OC=O
+data\raw\xyz\98\98.xyz,,RDKit could not parse SMILES: [N@@]12[C]3[N@](CCC[N@]3[B]2(C2CCCCC2)C2CCCCC2)CCC1
+data\raw\xyz\98\98CH3OH.xyz,,RDKit could not parse SMILES: N1([C]2[N@@](CCCN2)CCC1)[B](C1CCCCC1)(C1CCCCC1)OC
+data\raw\xyz\98\98CO2.xyz,,RDKit could not parse SMILES: [N@@]12[C]3[N@@](CCCN3C(=O)O[B]2(C2CCCCC2)C2CCCCC2)CCC1
+data\raw\xyz\98\98H2.xyz,,RDKit could not parse SMILES: N1([C]2[N@@](CCCN2)CCC1)[BH](C1CCCCC1)C1CCCCC1
+data\raw\xyz\98\98H2CO.xyz,,RDKit could not parse SMILES: [N@@]12[C]3[N@](CCC[N@]3[B](C3CCCCC3)(C3CCCCC3)OC2)CCC1
+data\raw\xyz\98\98H2O.xyz,,RDKit could not parse SMILES: N1([C]2[N@@](CCCN2)CCC1)[B](C1CCCCC1)(C1CCCCC1)O
+data\raw\xyz\98\98HCOOH.xyz,,RDKit could not parse SMILES: N1([C]2[N@@](CCCN2)CCC1)[B](C1CCCCC1)(C1CCCCC1)OC=O
+data\raw\xyz\99\99.xyz,C[Si]1(C)(Cl)N2CCCN3CCCN1[C]32,
+data\raw\xyz\99\99CH3OH.xyz,CO[Si](C)(C)(Cl)N1CCCN2CCCN[C]21,
+data\raw\xyz\99\99CO2.xyz,C[Si]1(C)(Cl)OC(=O)N2CCCN3CCCN1[C]32,
+data\raw\xyz\99\99H2.xyz,C[SiH](C)(Cl)N1CCCN2CCCN[C]21,
+data\raw\xyz\99\99H2CO.xyz,C[Si]1(C)(Cl)OCN2CCCN3CCCN1[C]32,
+data\raw\xyz\99\99H2O.xyz,C[Si](C)(O)(Cl)N1CCCN2CCCN[C]21,
+data\raw\xyz\99\99HCOOH.xyz,C[Si](C)(Cl)N1CCCN2CCCN=C21.O=CO,
